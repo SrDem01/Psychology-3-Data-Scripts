@@ -1,0 +1,105 @@
+h_score,grpControl,grpHealthy,grpUnhealthy,age,water,fem,city,town,vil,grp,citytier
+-1.0,false,true,false,19,02,0,true,false,false,Healthy,a city
+-3.0,true,false,false,21,4,0,true,false,false,Control,a city
+-3.0,false,true,false,19,6,0,true,false,false,Healthy,a city
+1.0,false,false,true,18,-10,0,false,true,false,Unhealthy,a town
+-1.0,false,false,true,21,3,1,true,false,false,Unhealthy,a city
+-1.0,false,false,true,19,0,0,false,false,false,Unhealthy,
+1.0,false,false,true,23,7,0,false,true,false,Unhealthy,a town
+-1.0,false,true,false,22,5,1,true,false,false,Healthy,a city
+-1.0,true,false,false,20,7,1,false,true,false,Control,a town
+3.0,true,false,false,55,10,0,false,true,false,Control,a town
+-3.0,false,false,true,22,10,0,true,false,false,Unhealthy,a city
+1.0,false,true,false,19,6,0,true,false,false,Healthy,a city
+1.0,false,true,false,19,4,1,true,false,false,Healthy,a city
+-1.0,true,false,false,21,6,0,false,true,false,Control,a town
+1.0,false,true,false,20,4,0,false,true,false,Healthy,a town
+1.0,false,true,false,20,15,0,true,false,false,Healthy,a city
+1.0,true,false,false,23,11,0,true,false,false,Control,a city
+-1.0,true,false,false,22,7,0,true,false,false,Control,a city
+1.0,false,false,true,21,15,0,true,false,false,Unhealthy,a city
+-3.0,false,true,false,21,6,1,true,false,false,Healthy,a city
+-3.0,true,false,false,19,5,0,true,false,false,Control,a city
+-1.0,false,true,false,19,8,1,true,false,false,Healthy,a city
+-1.0,false,false,true,19,0,0,true,false,false,Unhealthy,a city
+-1.0,false,false,true,21,16,0,false,true,false,Unhealthy,a town
+-1.0,false,false,true,20,8,0,true,false,false,Unhealthy,a city
+-3.0,false,true,false,20,19.69,0,true,false,false,Healthy,a city
+-1.0,false,true,false,22,2,0,false,true,false,Healthy,a town
+1.0,false,true,false,19,4,1,false,true,false,Healthy,a town
+-1.0,false,false,true,18,15,0,false,true,false,Unhealthy,a town
+-1.0,false,true,false,21,10,0,false,true,false,Healthy,a town
+-1.0,true,false,false,21,8,0,true,false,false,Control,a city
+-3.0,false,false,true,21,2,0,false,true,false,Unhealthy,a town
+-1.0,false,true,false,21,8,0,true,false,false,Healthy,a city
+-1.0,false,false,true,19,4,0,true,false,false,Unhealthy,a city
+-1.0,false,true,false,20,6,0,false,true,false,Healthy,a town
+-3.0,false,false,true,18,15,0,false,false,true,Unhealthy,a village
+3.0,false,true,false,20,8,1,true,false,false,Healthy,a city
+-1.0,false,true,false,21,5,0,false,false,true,Healthy,a village
+-3.0,true,false,false,23,10,0,true,false,false,Control,a city
+1.0,false,false,true,22,8,0,true,false,false,Unhealthy,a city
+-3.0,true,false,false,15,10,0,false,true,false,Control,a town
+-1.0,false,true,false,21,5,0,false,true,false,Healthy,a town
+3.0,false,true,false,21,6,1,true,false,false,Healthy,a city
+-1.0,true,false,false,22,6,1,true,false,false,Control,a city
+1.0,false,true,false,19,8,1,false,true,false,Healthy,a town
+0.0,true,false,false,20,50,0,false,true,false,Control,a town
+1.0,true,false,false,21,7,0,true,false,false,Control,a city
+-3.0,false,false,true,19,7,0,true,false,false,Unhealthy,a city
+-3.0,false,false,true,19,6,0,true,false,false,Unhealthy,a city
+-1.0,false,false,true,20,5,1,true,false,false,Unhealthy,a city
+3.0,false,true,false,19,,0,true,false,false,Healthy,a city
+0.0,true,false,false,19,-100,0,false,false,false,Control,
+-1.0,false,false,true,21,9,0,true,false,false,Unhealthy,a city
+-1.0,false,false,true,19,10,0,true,false,false,Unhealthy,a city
+-1.0,true,false,false,22,8,0,true,false,false,Control,a city
+3.0,true,false,false,19,10,0,false,true,false,Control,a town
+-3.0,false,true,false,22,10,0,true,false,false,Healthy,a city
+0.0,false,true,false,19,0,0,false,false,false,Healthy,
+-3.0,false,false,true,20,7,0,true,false,false,Unhealthy,a city
+-3.0,false,false,true,18,9,0,true,false,false,Unhealthy,a city
+-1.0,false,false,true,21,5,1,true,false,false,Unhealthy,a city
+-2.0,false,true,false,18,7,1,true,false,false,Healthy,a city
+-1.0,false,false,true,21,6,1,true,false,false,Unhealthy,a city
+1.0,false,true,false,19,10,0,false,true,false,Healthy,a town
+0.0,true,false,false,19,0,0,false,false,false,Control,
+3.0,true,false,false,20,6,0,true,false,false,Control,a city
+3.0,true,false,false,21,10,1,false,false,true,Control,a village
+-1.0,true,false,false,22,99,1,false,false,true,Control,a village
+-3.0,false,false,true,20,8,0,true,false,false,Unhealthy,a city
+-3.0,false,false,true,18,9,0,false,false,true,Unhealthy,a village
+3.0,false,true,false,23,09,0,false,true,false,Healthy,a town
+-3.0,false,false,true,19,3,1,true,false,false,Unhealthy,a city
+1.0,false,false,true,21,12,0,false,true,false,Unhealthy,a town
+-1.0,false,true,false,1,1,0,false,false,true,Healthy,a village
+0.0,false,true,false,19,0,0,false,false,false,Healthy,
+-1.0,true,false,false,21,0.5,0,false,true,false,Control,a town
+-1.0,true,false,false,19,8,0,true,false,false,Control,a city
+1.0,false,true,false,20,4,1,true,false,false,Healthy,a city
+-3.0,false,true,false,23,0,0,false,true,false,Healthy,a town
+1.0,true,false,false,18,10,0,true,false,false,Control,a city
+-1.0,true,false,false,19,12,0,true,false,false,Control,a city
+-1.0,true,false,false,20,6,0,false,true,false,Control,a town
+-3.0,false,false,true,20,6,1,false,true,false,Unhealthy,a town
+3.0,true,false,false,20,8,0,true,false,false,Control,a city
+1.0,false,true,false,21,3,1,false,true,false,Healthy,a town
+-3.0,false,false,true,18,5,0,true,false,false,Unhealthy,a city
+-3.0,false,false,true,19,8,0,false,false,false,Unhealthy,
+1.0,true,false,false,18,6,0,false,false,true,Control,a village
+-1.0,false,true,false,22,11,0,true,false,false,Healthy,a city
+-1.0,false,true,false,21,06,1,true,false,false,Healthy,a city
+1.0,true,false,false,20,10,0,true,false,false,Control,a city
+3.0,true,false,false,22,5,1,true,false,false,Control,a city
+-1.0,false,false,true,22,5,0,true,false,false,Unhealthy,a city
+-3.0,true,false,false,20,10,0,true,false,false,Control,a city
+-1.0,true,false,false,19,5,0,true,false,false,Control,a city
+-1.0,false,false,true,19,0,0,false,false,false,Unhealthy,
+-1.0,false,true,false,21,5,0,false,false,true,Healthy,a village
+-1.0,false,false,true,19,10,0,true,false,false,Unhealthy,a city
+-3.0,false,true,false,19,12,0,false,false,true,Healthy,a village
+-3.0,false,true,false,21,6,1,false,true,false,Healthy,a town
+-1.0,false,true,false,19,0,0,false,false,false,Healthy,
+-1.0,false,true,false,20,6,0,true,false,false,Healthy,a city
+-2.0,false,true,false,21,6,0,false,true,false,Healthy,a town
+3.0,false,true,false,19,3,0,true,false,false,Healthy,a city

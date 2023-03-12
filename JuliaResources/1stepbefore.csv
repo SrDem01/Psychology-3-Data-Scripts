@@ -1,0 +1,34 @@
+state,citytier,name,drink,gender,side,main,r,age,glasses_of_water,D,file_name
+Haryana,a city,A,Ice Cream Smoothie,Male,Greek Yogurt,Mixed Fruit Bowl Meal,0.763411433283678,2001,20,1.7054921748626595,A_2023-03-11_19h08.57.252.csv
+Maharashtra,a city,AP,Lemonade,Male,,Burger and Fries,0.225694992660835,2002,9,0.9416378744690198,AP_2023-03-11_20h09.44.159.csv
+Maharashtra,a city,Aditya,,Male,Onion Rings,Double Toppings Pizza,0.229245875128058,2003,9,1.0683254217821114,Aditya_2023-03-11_19h55.48.239.csv
+Uttar Pradesh,a city,Akshat,Cocacola,Male,Greek Yogurt,Burger and Fries,0.754897882745297,2002,10,1.4809406209271898,Akshat_2023-03-11_19h43.20.866.csv
+Delhi,a city,Aryan Hinduja,Lemonade,Male,Greek Yogurt,Mixed Fruit Bowl Meal,0.0660867687089519,2003,10,0.6665415317902978,Aryan Hinduja_2023-03-11_19h50.56.936.csv
+Uttar Pradesh,a city,Ayush,Iced Water,Male,Onion Rings,Pea and Beans Soup,0.438055252531948,2003,6,1.5285273032883913,Ayush_2023-03-11_20h01.34.481.csv
+Rajasthan,a city,B,Ice Cream Smoothie,Male,Onion Rings,Burger and Fries,0.377534095867722,2003,7,0.8342884900237997,B_2023-03-11_19h30.06.299.csv
+Madhya Pradesh,a city,Gitesh,Ice Cream Smoothie,Male,Onion Rings,Burger and Fries,0.0711979990367073,1979,10,1.26514148297439,Gitesh_2023-03-11_20h03.32.022.csv
+Maharashtra,a city,Krish,Cocacola,Male,Cole Slaw,Double Toppings Pizza,0.685822492247916,2002,10,1.249003134419933,Krish_2023-03-11_19h19.48.981.csv
+Uttar Pradesh,a city,Kushal,Cocacola,Male,Pretzels,Double Toppings Pizza,0.456350934680527,2003,5,0.6914331369854332,Kushal_2023-03-11_19h37.23.184.csv
+Odisha,a city,Lisa Behera,Lemonade,Female,Onion Rings,Double Toppings Pizza,0.244165532718965,2003,7,1.4032157264405047,Lisa Behera_2023-03-11_20h20.13.342.csv
+Haryana,a city,Mahak,Cocacola,Female,Onion Rings,Double Toppings Pizza,0.373931332011535,2004,5,1.1260952557603696,Mahak_2023-03-11_20h08.33.737.csv
+Odisha,a city,Noone,Lemonade,Male,Greek Yogurt,Double Toppings Pizza,0.206662350177528,2001,8,0.5631055742844836,Noone_2023-03-11_19h34.34.026.csv
+Jammu,a city,Osama Bin Laden,Lemonade,Male,Greek Yogurt,Mixed Fruit Bowl Meal,0.352683505930184,2003,8,0.9850580456892285,Osama Bin Laden_2023-03-11_20h15.10.034.csv
+Delhi,a city,Parth Kharbanda,Lemonade,Male,Cole Slaw,Burger and Fries,0.508914928394872,2002,12,1.3749630538755124,Parth Kharbanda_2023-03-11_19h40.56.853.csv
+Gujarat,a city,Prasheel,Cocacola,Male,Pretzels,Burger and Fries,0.189636106175284,2003,13,1.2160740579399272,Prasheel_2023-03-11_19h50.28.227.csv
+Maharashtra,a city,Prerna,Lemonade,Female,Onion Rings,Double Toppings Pizza,0.234689625071839,2002,10,1.2593076306531266,Prerna_2023-03-11_18h48.58.125.csv
+Odisha,a city,Samriddhi,Lemonade,Female,,Burger and Fries,0.407587862199084,2002,6,1.0536864766797578,Samriddhi_2023-03-11_20h32.54.842.csv
+Haryana,a town,Sanskar,Cocacola,Male,Onion Rings,Double Toppings Pizza,0.160670473411982,2004,5,1.270024454692765,Sanskar_2023-03-11_20h24.11.148.csv
+Tamil Nadu,a city,Shasangk,Ice Cream Smoothie,Male,Greek Yogurt,Burger and Fries,0.397511096395747,2003,8,1.0787415284744553,Shasangk_2023-03-11_20h42.59.050.csv
+Kerala,a village,Shiva Manoj,Lemonade,Male,Cole Slaw,Mixed Fruit Bowl Meal,0.793127457728439,2003,8,0.198763399508462,Shiva Manoj_2023-03-11_20h55.58.318.csv
+Bihar,a city,Sri,Cocacola,Female,Onion Rings,Burger and Fries,0.346270343639879,2002,3,0.6464646583416135,Sri_2023-03-11_19h18.23.619.csv
+Madhya Pradesh,a town,Srushti Wagh,Ice Cream Smoothie,Female,Pretzels,Double Toppings Pizza,0.813332485104252,2003,3,0.6871846328813811,Srushti Wagh_2023-03-11_19h57.41.010.csv
+Odisha,a village,Tosh,,Female,,Mixed Fruit Bowl Meal,0.613865117565954,2003,7,0.8333011909798426,Tosh_2023-03-11_20h31.00.853.csv
+Gujarat,a city,Utsav parmar,Cocacola,Male,Onion Rings,Double Toppings Pizza,0.604183192076149,2002,5,1.108907011935403,Utsav parmar_2023-03-11_20h50.09.264.csv
+Uttar Pradesh,a city,bhardwaj,Lemonade,Male,Cole Slaw,Double Toppings Pizza,0.235329714582708,2002,5,1.4267437394743974,bhardwaj_2023-03-11_20h26.53.598.csv
+West Bengal,a town,bratati,Cocacola,Female,Onion Rings,Double Toppings Pizza,0.114979676626974,2004,10,0.6148027235416533,bratati_2023-03-11_18h34.16.119.csv
+Uttar Pradesh,a city,jigyasa,Lemonade,Female,Onion Rings,Burger and Fries,0.633656403310449,2004,5,1.3502158954986114,jigyasa_2023-03-11_19h03.26.508.csv
+Madhya Pradesh,a city,mitashi,Lemonade,Female,Onion Rings,Mixed Fruit Bowl Meal,0.449701239782638,2002,6,0.8230881699226142,mitashi_2023-03-11_19h10.41.570.csv
+Tamil Nadu,a city,pkav,Lemonade,Female,Onion Rings,Double Toppings Pizza,0.66000429017075,2003,8,0.9697435322369109,pkav_2023-03-11_19h24.34.425.csv
+Madhya Pradesh,a village,preyansh,Cocacola,Male,Greek Yogurt,Double Toppings Pizza,0.548628188253915,2002,8,0.621884810927253,preyansh_2023-03-11_19h25.26.291.csv
+West Bengal,a town,ritabrata,Lemonade,Male,Onion Rings,Double Toppings Pizza,0.499608696021166,2004,8,1.0635899406145501,ritabrata_2023-03-11_18h41.51.689.csv
+Puducherry,a city,tanya,Cocacola,Female,Onion Rings,Double Toppings Pizza,0.963635566170947,2003,6,0.5567384279337422,tanya_2023-03-11_18h28.05.536.csv

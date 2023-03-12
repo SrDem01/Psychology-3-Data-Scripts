@@ -1,0 +1,1140 @@
+[{
+        "age":
+           "2001",
+        "citytier":
+           "a city",
+        "main": 
+           "Mixed Fruit Bowl Meal"
+        ,
+        "gender": 
+           "Male"
+        ,
+        "glasses_of_water": 
+           "20"
+        ,
+        "state": 
+           "Haryana"
+        ,
+        "name": 
+           "A"
+        ,
+        "drink": 
+           "Ice Cream Smoothie"
+        ,
+        "side": 
+           "Greek Yogurt"
+        ,
+        "r": 0.76341143328367833
+},
+{
+        "main":
+           "Burger and Fries",
+        "drink": 
+           "Lemonade"
+        ,
+        "gender": 
+           "Male"
+        ,
+        "name": 
+           "AP"
+        ,
+        "age": 
+           "2002"
+        ,
+        "r": 
+           0.22569499266083493
+        ,
+        "glasses_of_water": 
+           "9"
+        ,
+        "state": 
+           "Maharashtra"
+        ,
+        "side": 
+           ""
+        ,
+        "citytier": 
+           "a city"
+},
+{
+        "name":
+           "Aditya"
+        ,
+        "age":
+           "2003"
+        ,
+        "glasses_of_water":
+           "09"
+        ,
+        "citytier":
+           "a city"
+        ,
+        "main":
+           "Double Toppings Pizza"
+        ,
+        "gender":
+           "Male"
+        ,
+        "r":
+           0.22924587512805772
+        ,
+        "drink":
+           ""
+        ,
+        "state":
+           "Maharashtra"
+        ,
+        "side":
+           "Onion Rings"
+},
+{
+        "name":
+           "Akshat"
+        ,
+        "r":
+           0.75489788274529679
+        ,
+        "side":
+           "Greek Yogurt"
+        ,
+        "state":
+           "Uttar Pradesh"
+        ,
+        "age":
+           "2002"
+        ,
+        "gender":
+           "Male"
+        ,
+        "glasses_of_water":
+           "10"
+        ,
+        "main":
+           "Burger and Fries"
+        ,
+        "drink":
+           "Cocacola"
+        ,
+        "citytier":
+           "a city"
+},
+{
+        "state": 
+           "Delhi"
+        ,
+        "glasses_of_water": 
+           "10"
+        ,
+        "r": 
+           0.066086768708951915
+        ,
+        "main": 
+           "Mixed Fruit Bowl Meal"
+        ,
+        "side": 
+           "Greek Yogurt"
+        ,
+        "citytier": 
+           "a city"
+        ,
+        "gender": 
+           "Male"
+        ,
+        "drink": 
+           "Lemonade"
+        ,
+        "age": 
+           "2003"
+        ,
+        "name": 
+           "Aryan Hinduja"
+
+},
+{
+        "citytier":
+           "a city"
+        ,
+        "side":
+           "Onion Rings"
+        ,
+        "name":
+           "Ayush"
+        ,
+        "r":
+           0.4380552525319481
+        ,
+        "main":
+           "Pea and Beans Soup"
+        ,
+        "age":
+           "2003"
+        ,
+        "drink":
+           "Iced Water"
+        ,
+        "gender":
+           "Male"
+        ,
+        "glasses_of_water":
+           "6"
+        ,
+        "state":
+           "Uttar Pradesh"
+},
+{
+        "side":
+           "Onion Rings"
+        ,
+        "main":
+           "Burger and Fries"
+        ,
+        "citytier":
+           "a city"
+        ,
+        "r":
+           0.3775340958677218
+        ,
+        "glasses_of_water":
+           "7"
+        ,
+        "name":
+           "B"
+        ,
+        "state":
+           "Rajasthan"
+        ,
+        "gender":
+           "Male"
+        ,
+        "age":
+           "2003"
+        ,
+        "drink":
+           "Ice Cream Smoothie"
+},
+{
+        "drink":
+           "Ice Cream Smoothie"
+        ,
+        "r":
+           0.071197999036707316
+        ,
+        "gender":
+           "Male"
+        ,
+        "name":
+           "Gitesh"
+        ,
+        "glasses_of_water":
+           "10"
+        ,
+        "main":
+           "Burger and Fries"
+        ,
+        "age":
+           "1979"
+        ,
+        "citytier":
+           "a city"
+        ,
+        "state":
+           "Madhya Pradesh"
+        ,
+        "side":
+           "Onion Rings"
+},
+{
+        "citytier":
+           "a city"
+        ,
+        "gender":
+           "Male"
+        ,
+        "state":
+           "Maharashtra"
+        ,
+        "age":
+           "2002"
+        ,
+        "drink":
+           "Cocacola"
+        ,
+        "glasses_of_water":
+           "10"
+        ,
+        "main":
+           "Double Toppings Pizza"
+        ,
+        "name":
+           "Krish"
+        ,
+        "side":
+           "Cole Slaw"
+        ,
+        "r":
+           0.68582249224791614
+},
+{
+        "glasses_of_water":
+           "5"
+        ,
+        "r":
+           0.45635093468052745
+        ,
+        "state":
+           "Uttar Pradesh"
+        ,
+        "gender":
+           "Male"
+        ,
+        "side":
+           "Pretzels"
+        ,
+        "age":
+           "2003"
+        ,
+        "main":
+           "Double Toppings Pizza"
+        ,
+        "citytier":
+           "a city"
+        ,
+        "name":
+           "Kushal"
+        ,
+        "drink":
+           "Cocacola"
+        
+},
+{
+        "citytier":
+           "a city"
+        ,
+        "glasses_of_water":
+           "7"
+        ,
+        "state":
+           "Odisha"
+        ,
+        "main":
+           "Double Toppings Pizza"
+        ,
+        "side":
+           "Onion Rings"
+        ,
+        "name":
+           "Lisa Behera"
+        ,
+        "drink":
+           "Lemonade"
+        ,
+        "gender":
+           "Female"
+        ,
+        "age":
+           "2003"
+        ,
+        "r":
+           0.24416553271896491
+        
+},
+{
+        "side":
+           "Onion Rings"
+        ,
+        "state":
+           "Haryana"
+        ,
+        "citytier":
+           "a city"
+        ,
+        "drink":
+           "Cocacola"
+        ,
+        "main":
+           "Double Toppings Pizza"
+        ,
+        "r":
+           0.37393133201153539
+        ,
+        "age":
+           "2004"
+        ,
+        "glasses_of_water":
+           "05"
+        ,
+        "name":
+           "Mahak"
+        ,
+        "gender":
+           "Female"
+        
+},
+{
+        "state":
+           "Odisha"
+        ,
+        "citytier":
+           "a city"
+        ,
+        "r":
+           0.20666235017752821
+        ,
+        "gender":
+           "Male"
+        ,
+        "name":
+           "Noone"
+        ,
+        "glasses_of_water":
+           "8"
+        ,
+        "main":
+           "Double Toppings Pizza"
+        ,
+        "age":
+           "2001"
+        ,
+        "drink":
+           "Lemonade"
+        ,
+        "side":
+           "Greek Yogurt"
+        
+},
+{
+        "state":
+           "Goa"
+        ,
+        "name":
+           "Osama Bin Laden"
+        ,
+        "r":
+           0.35268350593018405
+        ,
+        "drink":
+           "Lemonade"
+        ,
+        "main":
+           "Mixed Fruit Bowl Meal"
+        ,
+        "glasses_of_water":
+           "8"
+        ,
+        "age":
+           "2003"
+        ,
+        "citytier":
+           "a city"
+        ,
+        "gender":
+           "Male"
+        ,
+        "side":
+           "Greek Yogurt"
+        
+},
+{
+        "side":
+           "Cole Slaw"
+        ,
+        "name":
+           "Parth Kharbanda"
+        ,
+        "gender":
+           "Male"
+        ,
+        "drink":
+           "Lemonade"
+        ,
+        "age":
+           "2002"
+        ,
+        "main":
+           "Burger and Fries"
+        ,
+        "glasses_of_water":
+           "12"
+        ,
+        "citytier":
+           "a city"
+        ,
+        "state":
+           "Delhi"
+        ,
+        "r":
+           0.5089149283948724
+        
+},
+{
+        "glasses_of_water":
+           "13"
+        ,
+        "side":
+           "Pretzels"
+        ,
+        "name":
+           "Prasheel"
+        ,
+        "main":
+           "Burger and Fries"
+        ,
+        "age":
+           "2003"
+        ,
+        "r":
+           0.18963610617528404
+        ,
+        "citytier":
+           "a city"
+        ,
+        "state":
+           "Gujarat"
+        ,
+        "drink":
+           "Cocacola"
+        ,
+        "gender":
+           "Male"
+        
+},
+{
+        "name":
+           "Prerna"
+        ,
+        "glasses_of_water":
+           "10"
+        ,
+        "side":
+           "Onion Rings"
+        ,
+        "citytier":
+           "a city"
+        ,
+        "state":
+           "Maharashtra"
+        ,
+        "r":
+           0.23468962507183933
+        ,
+        "gender":
+           "Female"
+        ,
+        "drink":
+           "Lemonade"
+        ,
+        "main":
+           "Double Toppings Pizza"
+        ,
+        "age":
+           "2002"
+        
+},
+{
+        "name":
+           "Samriddhi"
+        ,
+        "drink":
+           "Lemonade"
+        ,
+        "main":
+           "Burger and Fries"
+        ,
+        "state":
+           "Odisha"
+        ,
+        "r":
+           0.40758786219908405
+        ,
+        "age":
+           "2002"
+        ,
+        "citytier":
+           "a city"
+        ,
+        "side":
+           ""
+        ,
+        "glasses_of_water":
+           "6"
+        ,
+        "gender":
+           "Female"
+        
+},
+{
+        "drink":
+           "Cocacola"
+        ,
+        "gender":
+           "Male"
+        ,
+        "main":
+           "Double Toppings Pizza"
+        ,
+        "glasses_of_water":
+           "5"
+        ,
+        "side":
+           "Onion Rings"
+        ,
+        "citytier":
+           "a town"
+        ,
+        "r":
+           0.16067047341198171
+        ,
+        "name":
+           "Sanskar"
+        ,
+        "state":
+           "Haryana"
+        ,
+        "age":
+           "2004"
+        
+},
+{
+        "glasses_of_water":
+           "8"
+        ,
+        "name":
+           "Shasangk"
+        ,
+        "age":
+           "2003"
+        ,
+        "state":
+           "Tamil Nadu"
+        ,
+        "main":
+           "Burger and Fries"
+        ,
+        "side":
+           "Greek Yogurt"
+        ,
+        "r":
+           0.39751109639574711
+        ,
+        "drink":
+           "Ice Cream Smoothie"
+        ,
+        "gender":
+           "Male"
+        ,
+        "citytier":
+           "a city"
+        
+},
+{
+        "drink":
+           "Lemonade"
+        ,
+        "gender":
+           "Male"
+        ,
+        "main":
+           "Mixed Fruit Bowl Meal"
+        ,
+        "r":
+           0.79312745772843951
+        ,
+        "side":
+           "Cole Slaw"
+        ,
+        "state":
+           "Kerala"
+        ,
+        "glasses_of_water":
+           "8"
+        ,
+        "name":
+           "Shiva Manoj"
+        ,
+        "citytier":
+           "a village"
+        ,
+        "age":
+           "2003"
+        
+},
+{
+        "state":
+           "Bihar"
+        ,
+        "side":
+           "Onion Rings"
+        ,
+        "glasses_of_water":
+           "3"
+        ,
+        "main":
+           "Burger and Fries"
+        ,
+        "drink":
+           "Cocacola"
+        ,
+        "citytier":
+           "a city"
+        ,
+        "name":
+           "Sri"
+        ,
+        "gender":
+           "Female"
+        ,
+        "r":
+           0.34627034363987863
+        ,
+        "age":
+           "2002"
+        
+},
+{
+        "gender":
+           "Female"
+        ,
+        "drink":
+           "Ice Cream Smoothie"
+        ,
+        "state":
+           "Madhya Pradesh"
+        ,
+        "r":
+           0.8133324851042516
+        ,
+        "name":
+           "Srushti Wagh"
+        ,
+        "citytier":
+           "a town"
+        ,
+        "age":
+           "2003"
+        ,
+        "main":
+           "Double Toppings Pizza"
+        ,
+        "glasses_of_water":
+           "3"
+        ,
+        "side":
+           "Pretzels"
+        
+},
+{
+        "main":
+           "Mixed Fruit Bowl Meal"
+        ,
+        "name":
+           "Swarnil"
+        ,
+        "citytier":
+           "a town"
+        ,
+        "drink":
+           "Lemonade"
+        ,
+        "gender":
+           "Male"
+        ,
+        "glasses_of_water":
+           "6"
+        ,
+        "age":
+           "2003"
+        ,
+        "r":
+           0.76958912600368534
+        ,
+        "side":
+           "Greek Yogurt"
+        ,
+        "state":
+           "Maharashtra"
+        
+},
+{
+        "glasses_of_water":
+           "7"
+        ,
+        "citytier":
+           "a village"
+        ,
+        "side":
+           ""
+        ,
+        "name":
+           "Tosh"
+        ,
+        "main":
+           "Mixed Fruit Bowl Meal"
+        ,
+        "gender":
+           "Female"
+        ,
+        "age":
+           "2003"
+        ,
+        "drink":
+           ""
+        ,
+        "state":
+           "Odisha"
+        ,
+        "r":
+           0.61386511756595419
+        
+},
+{
+        "gender":
+           "Male"
+        ,
+        "name":
+           "Utsav parmar"
+        ,
+        "main":
+           "Double Toppings Pizza"
+        ,
+        "r":
+           0.6041831920761489
+        ,
+        "drink":
+           "Cocacola"
+        ,
+        "side":
+           "Onion Rings"
+        ,
+        "glasses_of_water":
+           "5"
+        ,
+        "citytier":
+           "a city"
+        ,
+        "state":
+           "Gujarat"
+        ,
+        "age":
+           "2002"
+        
+},
+{
+        "name":
+           "bhardwaj"
+        ,
+        "age":
+           "2002"
+        ,
+        "citytier":
+           "a city"
+        ,
+        "drink":
+           "Lemonade"
+        ,
+        "glasses_of_water":
+           "05"
+        ,
+        "gender":
+           "Male"
+        ,
+        "side":
+           "Cole Slaw"
+        ,
+        "main":
+           "Double Toppings Pizza"
+        ,
+        "state":
+           "Uttar Pradesh"
+        ,
+        "r":
+           0.23532971458270757
+        
+},
+{
+        "state":
+           "West Bengal"
+        ,
+        "age":
+           "2004"
+        ,
+        "side":
+           "Onion Rings"
+        ,
+        "glasses_of_water":
+           "10"
+        ,
+        "main":
+           "Double Toppings Pizza"
+        ,
+        "name":
+           "bratati"
+        ,
+        "drink":
+           "Cocacola"
+        ,
+        "gender":
+           "Female"
+        ,
+        "citytier":
+           "a town"
+        ,
+        "r":
+           0.11497967662697417
+        
+},
+{
+        "glasses_of_water":
+           "4"
+        ,
+        "citytier":
+           "a city"
+        ,
+        "drink":
+           "Lemonade"
+        ,
+        "name":
+           "dsa"
+        ,
+        "age":
+           "2004"
+        ,
+        "gender":
+           "Male"
+        ,
+        "main":
+           "Burger and Fries"
+        ,
+        "r":
+           0.77768514990068116
+        ,
+        "side":
+           "Cole Slaw"
+        ,
+        "state":
+           ""
+        
+},
+{
+        "state":
+           "Uttar Pradesh"
+        ,
+        "drink":
+           "Lemonade"
+        ,
+        "r":
+           0.63365640331044881
+        ,
+        "gender":
+           "Female"
+        ,
+        "side":
+           "Onion Rings"
+        ,
+        "name":
+           "jigyasa"
+        ,
+        "main":
+           "Burger and Fries"
+        ,
+        "citytier":
+           "a city"
+        ,
+        "glasses_of_water":
+           "5"
+        ,
+        "age":
+           "2004"
+        
+},
+{
+        "glasses_of_water":
+           "6"
+        ,
+        "side":
+           "Onion Rings"
+        ,
+        "main":
+           "Mixed Fruit Bowl Meal"
+        ,
+        "drink":
+           "Lemonade"
+        ,
+        "age":
+           "2002"
+        ,
+        "citytier":
+           "a city"
+        ,
+        "r":
+           0.44970123978263787
+        ,
+        "gender":
+           "Female"
+        ,
+        "name":
+           "mitashi"
+        ,
+        "state":
+           "Madhya Pradesh"
+        
+},
+{
+        "side":
+           "Onion Rings"
+        ,
+        "r":
+           0.66000429017075035
+        ,
+        "gender":
+           "Female"
+        ,
+        "citytier":
+           "a city"
+        ,
+        "state":
+           "Tamil Nadu"
+        ,
+        "glasses_of_water":
+           "8"
+        ,
+        "age":
+           "2003"
+        ,
+        "name":
+           "pkav"
+        ,
+        "main":
+           "Double Toppings Pizza"
+        ,
+        "drink":
+           "Lemonade"
+        
+},
+{
+        "side":
+           "Greek Yogurt"
+        ,
+        "glasses_of_water":
+           "8"
+        ,
+        "citytier":
+           "a village"
+        ,
+        "gender":
+           "Male"
+        ,
+        "age":
+           "2002"
+        ,
+        "name":
+           "preyansh"
+        ,
+        "state":
+           "Madhya Pradesh"
+        ,
+        "main":
+           "Double Toppings Pizza"
+        ,
+        "drink":
+           "Cocacola"
+        ,
+        "r":
+           0.548628188253915
+        
+},
+{
+        "name":
+           "reyansh"
+        ,
+        "age":
+           "2003"
+        ,
+        "state":
+           "Assam"
+        ,
+        "gender":
+           "Male"
+        ,
+        "glasses_of_water":
+           "5"
+        ,
+        "citytier":
+           "a city"
+        ,
+        "side":
+           "Greek Yogurt"
+        ,
+        "drink":
+           "Iced Water"
+        ,
+        "r":
+           0.28719540815150024
+        ,
+        "main":
+           "Mixed Fruit Bowl Meal"
+        
+},
+{
+        "name":
+           "ritabrata"
+        ,
+        "drink":
+           "Lemonade"
+        ,
+        "main":
+           "Double Toppings Pizza"
+        ,
+        "r":
+           0.49960869602116631
+        ,
+        "state":
+           "West Bengal"
+        ,
+        "side":
+           "Onion Rings"
+        ,
+        "glasses_of_water":
+           "8"
+        ,
+        "citytier":
+           "a town"
+        ,
+        "age":
+           "2004"
+        ,
+        "gender":
+           "Male"
+        
+},
+{
+        "age":
+           "2003"
+        ,
+        "r":
+           0.96363556617094659
+        ,
+        "citytier":
+           "a city"
+        ,
+        "glasses_of_water":
+           "6"
+        ,
+        "gender":
+           "Female"
+        ,
+        "state":
+           "Puducherry"
+        ,
+        "name":
+           "tanya"
+        ,
+        "main":
+           "Double Toppings Pizza"
+        ,
+        "side":
+           "Onion Rings"
+        ,
+        "drink":
+           "Cocacola"
+    }
+]

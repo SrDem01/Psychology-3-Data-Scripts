@@ -1,0 +1,34 @@
+state,citytier,name,drink,gender,side,main,r,age,glasses_of_water
+Haryana,a city,A,Ice Cream Smoothie,Male,Greek Yogurt,Mixed Fruit Bowl Meal,0.763411433283678,2001,20
+Maharashtra,a city,AP,Lemonade,Male,,Burger and Fries,0.225694992660835,2002,9
+Maharashtra,a city,Aditya,,Male,Onion Rings,Double Toppings Pizza,0.229245875128058,2003,9
+Uttar Pradesh,a city,Akshat,Cocacola,Male,Greek Yogurt,Burger and Fries,0.754897882745297,2002,10
+Delhi,a city,Aryan Hinduja,Lemonade,Male,Greek Yogurt,Mixed Fruit Bowl Meal,0.0660867687089519,2003,10
+Uttar Pradesh,a city,Ayush,Iced Water,Male,Onion Rings,Pea and Beans Soup,0.438055252531948,2003,6
+Rajasthan,a city,B,Ice Cream Smoothie,Male,Onion Rings,Burger and Fries,0.377534095867722,2003,7
+Madhya Pradesh,a city,Gitesh,Ice Cream Smoothie,Male,Onion Rings,Burger and Fries,0.0711979990367073,1979,10
+Maharashtra,a city,Krish,Cocacola,Male,Cole Slaw,Double Toppings Pizza,0.685822492247916,2002,10
+Uttar Pradesh,a city,Kushal,Cocacola,Male,Pretzels,Double Toppings Pizza,0.456350934680527,2003,5
+Odisha,a city,Lisa Behera,Lemonade,Female,Onion Rings,Double Toppings Pizza,0.244165532718965,2003,7
+Haryana,a city,Mahak,Cocacola,Female,Onion Rings,Double Toppings Pizza,0.373931332011535,2004,5
+Odisha,a city,Noone,Lemonade,Male,Greek Yogurt,Double Toppings Pizza,0.206662350177528,2001,8
+Jammu,a city,Osama Bin Laden,Lemonade,Male,Greek Yogurt,Mixed Fruit Bowl Meal,0.352683505930184,2003,8
+Delhi,a city,Parth Kharbanda,Lemonade,Male,Cole Slaw,Burger and Fries,0.508914928394872,2002,12
+Gujarat,a city,Prasheel,Cocacola,Male,Pretzels,Burger and Fries,0.189636106175284,2003,13
+Maharashtra,a city,Prerna,Lemonade,Female,Onion Rings,Double Toppings Pizza,0.234689625071839,2002,10
+Odisha,a city,Samriddhi,Lemonade,Female,,Burger and Fries,0.407587862199084,2002,6
+Haryana,a town,Sanskar,Cocacola,Male,Onion Rings,Double Toppings Pizza,0.160670473411982,2004,5
+Tamil Nadu,a city,Shasangk,Ice Cream Smoothie,Male,Greek Yogurt,Burger and Fries,0.397511096395747,2003,8
+Kerala,a village,Shiva Manoj,Lemonade,Male,Cole Slaw,Mixed Fruit Bowl Meal,0.793127457728439,2003,8
+Bihar,a city,Sri,Cocacola,Female,Onion Rings,Burger and Fries,0.346270343639879,2002,3
+Madhya Pradesh,a town,Srushti Wagh,Ice Cream Smoothie,Female,Pretzels,Double Toppings Pizza,0.813332485104252,2003,3
+Odisha,a village,Tosh,,Female,,Mixed Fruit Bowl Meal,0.613865117565954,2003,7
+Gujarat,a city,Utsav parmar,Cocacola,Male,Onion Rings,Double Toppings Pizza,0.604183192076149,2002,5
+Uttar Pradesh,a city,bhardwaj,Lemonade,Male,Cole Slaw,Double Toppings Pizza,0.235329714582708,2002,5
+West Bengal,a town,bratati,Cocacola,Female,Onion Rings,Double Toppings Pizza,0.114979676626974,2004,10
+Uttar Pradesh,a city,jigyasa,Lemonade,Female,Onion Rings,Burger and Fries,0.633656403310449,2004,5
+Madhya Pradesh,a city,mitashi,Lemonade,Female,Onion Rings,Mixed Fruit Bowl Meal,0.449701239782638,2002,6
+Tamil Nadu,a city,pkav,Lemonade,Female,Onion Rings,Double Toppings Pizza,0.66000429017075,2003,8
+Madhya Pradesh,a village,preyansh,Cocacola,Male,Greek Yogurt,Double Toppings Pizza,0.548628188253915,2002,8
+West Bengal,a town,ritabrata,Lemonade,Male,Onion Rings,Double Toppings Pizza,0.499608696021166,2004,8
+Puducherry,a city,tanya,Cocacola,Female,Onion Rings,Double Toppings Pizza,0.963635566170947,2003,6
