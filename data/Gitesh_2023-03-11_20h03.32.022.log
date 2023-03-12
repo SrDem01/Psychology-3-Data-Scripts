@@ -1,0 +1,2260 @@
+2.0779 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+85.1987 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000022A4603DF70>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000022A4BB5D3D0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+85.1989 	EXP 	window1: mouseVisible = True
+85.1991 	EXP 	window1: mouseVisible = False
+85.1992 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+85.1992 	EXP 	window1: recordFrameIntervals = False
+85.3643 	EXP 	window1: recordFrameIntervals = True
+85.5481 	EXP 	Screen (0) actual frame rate measured at 59.90Hz
+85.5482 	EXP 	window1: recordFrameIntervals = False
+87.3348 	EXP 	Created instructs_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='instructs_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+87.3400 	EXP 	Created instr_done_button = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([0.12941176, 0.86666667, 0.12941176]), fillColorSpace='rgb', fillRGB=array([0.12941176, 0.86666667, 0.12941176]), interpolate=True, lineColor=array([-1.        , -0.21568627, -1.        ]), lineColorSpace='rgb', lineRGB=array([-1.        , -0.21568627, -1.        ]), lineWidth=1, name='instr_done_button', opacity=1.0, ori=0.0, pos=array([ 0. , -0.4]), size=array([0.4, 0.1]), units='height', vertices=ndarray(...), win=Window(...))
+87.4168 	EXP 	Created instr_done_label = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1.        , -0.21568627, -1.        ]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr_done_label', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Next...', units='height', win=Window(...), wrapWidth=1)
+87.4171 	EXP 	window1: mouseVisible = True
+87.4463 	EXP 	Created main_ready_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='main_ready_msg', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+87.4488 	EXP 	Created button_L = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([0.12941176, 0.86666667, 0.12941176]), fillColorSpace='rgb', fillRGB=array([0.12941176, 0.86666667, 0.12941176]), interpolate=True, lineColor=array([-1.        , -0.21568627, -1.        ]), lineColorSpace='rgb', lineRGB=array([-1.        , -0.21568627, -1.        ]), lineWidth=1, name='button_L', opacity=1.0, ori=0.0, pos=array([-0.4, -0.3]), size=array([0.4, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+87.4498 	EXP 	Created ready_label_L = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1.        , -0.21568627, -1.        ]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ready_label_L', opacity=1.0, ori=0, pos=array([-0.4, -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+87.4515 	EXP 	Created button_R = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([0.12941176, 0.86666667, 0.12941176]), fillColorSpace='rgb', fillRGB=array([0.12941176, 0.86666667, 0.12941176]), interpolate=True, lineColor=array([-1.        , -0.21568627, -1.        ]), lineColorSpace='rgb', lineRGB=array([-1.        , -0.21568627, -1.        ]), lineWidth=1, name='button_R', opacity=1.0, ori=0.0, pos=array([ 0.4, -0.3]), size=array([0.4, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+87.4524 	EXP 	Created ready_label_R = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1.        , -0.21568627, -1.        ]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ready_label_R', opacity=1.0, ori=0, pos=array([ 0.4, -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+87.4525 	EXP 	window1: mouseVisible = True
+87.4589 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fixation', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+87.4664 	EXP 	Created image_stim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_stim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='height', win=Window(...))
+87.4677 	EXP 	Created text_stim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_stim', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+87.4678 	EXP 	window1: mouseVisible = True
+87.4705 	EXP 	Created button_left = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-6.0, fillColor=array([0.12941176, 0.86666667, 0.12941176]), fillColorSpace='rgb', fillRGB=array([0.12941176, 0.86666667, 0.12941176]), interpolate=True, lineColor=array([-1.        , -0.21568627, -1.        ]), lineColorSpace='rgb', lineRGB=array([-1.        , -0.21568627, -1.        ]), lineWidth=1, name='button_left', opacity=1.0, ori=0.0, pos=array([-0.4, -0.3]), size=array([0.4, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+87.4718 	EXP 	Created trial_label_left = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1.        , -0.21568627, -1.        ]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_label_left', opacity=1.0, ori=0, pos=array([-0.4, -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+87.4741 	EXP 	Created button_right = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-8.0, fillColor=array([0.12941176, 0.86666667, 0.12941176]), fillColorSpace='rgb', fillRGB=array([0.12941176, 0.86666667, 0.12941176]), interpolate=True, lineColor=array([-1.        , -0.21568627, -1.        ]), lineColorSpace='rgb', lineRGB=array([-1.        , -0.21568627, -1.        ]), lineWidth=1, name='button_right', opacity=1.0, ori=0.0, pos=array([ 0.4, -0.3]), size=array([0.4, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+87.4751 	EXP 	Created trial_label_right = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1.        , -0.21568627, -1.        ]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_label_right', opacity=1.0, ori=0, pos=array([ 0.4, -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+87.4759 	EXP 	Created feedback_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feedback_msg', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+87.5096 	EXP 	Created thanks_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='thanks_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+87.5173 	EXP 	Imported instructs.xlsx as conditions, 2 conditions, 2 params
+87.5178 	EXP 	Created sequence: sequential, trialTypes=2, nReps=1, seed=None
+87.5181 	EXP 	New trial (rep=0, index=0): {'pageN': 1, 'instruct_text': "You will be presented with words or images to classify into categories using either the 'A' or 'L' key. \n \nTry to go as fast as possible while making as few mistakes as possible. \n"}
+87.5428 	EXP 	instructs_text: height = 0.03
+87.5428 	EXP 	instructs_text: height = 0.03
+87.5428 	EXP 	instructs_text: height = 0.03
+87.5428 	EXP 	instructs_text: text = "You will be presented with words or images to classify into categories using either the 'A' or 'L' key. \n \nTry to go as fast as possible while making as few mistakes as possible. \n"
+87.5428 	EXP 	instructs_text: autoDraw = True
+87.5428 	EXP 	instr_done_button: autoDraw = True
+87.5428 	EXP 	instr_done_label: autoDraw = True
+97.7320 	DATA 	Mouse: Left button down, pos=(955,113)
+97.7355 	EXP 	New trial (rep=0, index=1): {'pageN': 2, 'instruct_text': 'Keep in mind: \n \n1) Labels at the top of the screen indicate which catogory goes with which key. \n \n2) Each word or image has a correct catogory classification \n \n3) Keep your index fingers on the A and L keys to enable a rapid response. \n \n4) The test gives no results if you go slow- please try to go as fast as possible \n'}
+97.7820 	EXP 	instructs_text: autoDraw = False
+97.7820 	EXP 	instr_done_button: autoDraw = False
+97.7820 	EXP 	instr_done_label: autoDraw = False
+97.7820 	EXP 	instructs_text: height = 0.03
+97.7820 	EXP 	instructs_text: height = 0.03
+97.7820 	EXP 	instructs_text: height = 0.03
+97.7820 	EXP 	instructs_text: text = 'Keep in mind: \n \n1) Labels at the top of the screen indicate which catogory goes with which key. \n \n2) Each word or image has a correct catogory classification \n \n3) Keep your index fingers on the A and L keys to enable a rapid response. \n \n4) The test gives no results if you go slow- please try to go as fast as possible \n'
+97.7820 	EXP 	instructs_text: autoDraw = True
+97.7820 	EXP 	instr_done_button: autoDraw = True
+97.7820 	EXP 	instr_done_label: autoDraw = True
+97.8510 	DATA 	Mouse:  Left button up, pos=(955,113)
+104.4985 	DATA 	Mouse: Left button down, pos=(955,113)
+104.5167 	EXP 	Imported blocks_order1.xlsx as conditions, 5 conditions, 3 params
+104.5176 	EXP 	Created sequence: sequential, trialTypes=5, nReps=1, seed=None
+104.5181 	EXP 	New trial (rep=0, index=0): {'conds_file': 'pos_neg_train.xlsx', 'label_left': 'A = \nPositive', 'label_right': 'L = \nNegative'}
+104.5558 	EXP 	instructs_text: autoDraw = False
+104.5558 	EXP 	instr_done_button: autoDraw = False
+104.5558 	EXP 	instr_done_label: autoDraw = False
+104.5558 	EXP 	ready_label_L: height = 0.05
+104.5558 	EXP 	ready_label_L: height = 0.05
+104.5558 	EXP 	ready_label_L: height = 0.05
+104.5558 	EXP 	ready_label_L: text = 'A = \nPositive'
+104.5558 	EXP 	ready_label_R: height = 0.05
+104.5558 	EXP 	ready_label_R: height = 0.05
+104.5558 	EXP 	ready_label_R: height = 0.05
+104.5558 	EXP 	ready_label_R: text = 'L = \nNegative'
+104.5558 	EXP 	main_ready_msg: autoDraw = True
+104.5558 	EXP 	button_L: autoDraw = True
+104.5558 	EXP 	ready_label_L: autoDraw = True
+104.5558 	EXP 	button_R: autoDraw = True
+104.5558 	EXP 	ready_label_R: autoDraw = True
+104.5736 	DATA 	Mouse:  Left button up, pos=(955,113)
+107.8807 	DATA 	Keypress: space
+107.9001 	EXP 	Imported pos_neg_train.xlsx as conditions, 10 conditions, 3 params
+107.9011 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+107.9016 	EXP 	New trial (rep=0, index=0): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Evil', 'CorrAns': 'l'}
+107.9231 	EXP 	main_ready_msg: autoDraw = False
+107.9231 	EXP 	button_L: autoDraw = False
+107.9231 	EXP 	ready_label_L: autoDraw = False
+107.9231 	EXP 	button_R: autoDraw = False
+107.9231 	EXP 	ready_label_R: autoDraw = False
+107.9231 	EXP 	image_stim: image = 'stimuli/blank.png'
+107.9231 	EXP 	text_stim: height = 0.05
+107.9231 	EXP 	text_stim: height = 0.05
+107.9231 	EXP 	text_stim: height = 0.05
+107.9231 	EXP 	text_stim: text = 'Evil'
+107.9231 	EXP 	trial_label_left: height = 0.05
+107.9231 	EXP 	trial_label_left: height = 0.05
+107.9231 	EXP 	trial_label_left: height = 0.05
+107.9231 	EXP 	trial_label_left: text = 'A = \nPositive'
+107.9231 	EXP 	trial_label_right: height = 0.05
+107.9231 	EXP 	trial_label_right: height = 0.05
+107.9231 	EXP 	trial_label_right: height = 0.05
+107.9231 	EXP 	trial_label_right: text = 'L = \nNegative'
+107.9231 	EXP 	fixation: autoDraw = True
+108.4167 	EXP 	fixation: autoDraw = False
+108.4167 	EXP 	image_stim: autoDraw = True
+108.4167 	EXP 	text_stim: autoDraw = True
+108.4167 	EXP 	button_left: autoDraw = True
+108.4167 	EXP 	trial_label_left: autoDraw = True
+108.4167 	EXP 	button_right: autoDraw = True
+108.4167 	EXP 	trial_label_right: autoDraw = True
+108.9815 	DATA 	Keypress: a
+108.9968 	EXP 	fixation: autoDraw = False
+108.9968 	EXP 	image_stim: autoDraw = False
+108.9968 	EXP 	text_stim: autoDraw = False
+108.9968 	EXP 	button_left: autoDraw = False
+108.9968 	EXP 	trial_label_left: autoDraw = False
+108.9968 	EXP 	button_right: autoDraw = False
+108.9968 	EXP 	trial_label_right: autoDraw = False
+108.9968 	EXP 	feedback_msg: height = 0.1
+108.9968 	EXP 	feedback_msg: height = 0.1
+108.9968 	EXP 	feedback_msg: height = 0.1
+108.9968 	EXP 	feedback_msg: text = 'oops'
+108.9968 	EXP 	feedback_msg: autoDraw = True
+109.9809 	EXP 	New trial (rep=0, index=1): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Happy', 'CorrAns': 'a'}
+109.9967 	EXP 	feedback_msg: autoDraw = False
+109.9967 	EXP 	feedback_msg: autoDraw = False
+109.9967 	EXP 	image_stim: image = 'stimuli/blank.png'
+109.9967 	EXP 	text_stim: height = 0.05
+109.9967 	EXP 	text_stim: height = 0.05
+109.9967 	EXP 	text_stim: height = 0.05
+109.9967 	EXP 	text_stim: text = 'Happy'
+109.9967 	EXP 	trial_label_left: text = 'A = \nPositive'
+109.9967 	EXP 	trial_label_right: text = 'L = \nNegative'
+109.9967 	EXP 	fixation: autoDraw = True
+110.4961 	EXP 	fixation: autoDraw = False
+110.4961 	EXP 	image_stim: autoDraw = True
+110.4961 	EXP 	text_stim: autoDraw = True
+110.4961 	EXP 	button_left: autoDraw = True
+110.4961 	EXP 	trial_label_left: autoDraw = True
+110.4961 	EXP 	button_right: autoDraw = True
+110.4961 	EXP 	trial_label_right: autoDraw = True
+110.9517 	DATA 	Keypress: a
+110.9791 	EXP 	fixation: autoDraw = False
+110.9791 	EXP 	image_stim: autoDraw = False
+110.9791 	EXP 	text_stim: autoDraw = False
+110.9791 	EXP 	button_left: autoDraw = False
+110.9791 	EXP 	trial_label_left: autoDraw = False
+110.9791 	EXP 	button_right: autoDraw = False
+110.9791 	EXP 	trial_label_right: autoDraw = False
+110.9791 	EXP 	feedback_msg: height = 0.1
+110.9791 	EXP 	feedback_msg: height = 0.1
+110.9791 	EXP 	feedback_msg: height = 0.1
+110.9791 	EXP 	feedback_msg: text = '+'
+110.9791 	EXP 	feedback_msg: autoDraw = True
+111.9639 	EXP 	New trial (rep=0, index=2): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Hurt', 'CorrAns': 'l'}
+111.9791 	EXP 	feedback_msg: autoDraw = False
+111.9791 	EXP 	feedback_msg: autoDraw = False
+111.9791 	EXP 	image_stim: image = 'stimuli/blank.png'
+111.9791 	EXP 	text_stim: height = 0.05
+111.9791 	EXP 	text_stim: height = 0.05
+111.9791 	EXP 	text_stim: height = 0.05
+111.9791 	EXP 	text_stim: text = 'Hurt'
+111.9791 	EXP 	trial_label_left: text = 'A = \nPositive'
+111.9791 	EXP 	trial_label_right: text = 'L = \nNegative'
+111.9791 	EXP 	fixation: autoDraw = True
+112.4792 	EXP 	fixation: autoDraw = False
+112.4792 	EXP 	image_stim: autoDraw = True
+112.4792 	EXP 	text_stim: autoDraw = True
+112.4792 	EXP 	button_left: autoDraw = True
+112.4792 	EXP 	trial_label_left: autoDraw = True
+112.4792 	EXP 	button_right: autoDraw = True
+112.4792 	EXP 	trial_label_right: autoDraw = True
+112.9479 	DATA 	Keypress: a
+112.9624 	EXP 	fixation: autoDraw = False
+112.9624 	EXP 	image_stim: autoDraw = False
+112.9624 	EXP 	text_stim: autoDraw = False
+112.9624 	EXP 	button_left: autoDraw = False
+112.9624 	EXP 	trial_label_left: autoDraw = False
+112.9624 	EXP 	button_right: autoDraw = False
+112.9624 	EXP 	trial_label_right: autoDraw = False
+112.9624 	EXP 	feedback_msg: height = 0.1
+112.9624 	EXP 	feedback_msg: height = 0.1
+112.9624 	EXP 	feedback_msg: height = 0.1
+112.9624 	EXP 	feedback_msg: text = 'oops'
+112.9624 	EXP 	feedback_msg: autoDraw = True
+113.0650 	DATA 	Keypress: l
+113.9471 	EXP 	New trial (rep=0, index=3): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Good', 'CorrAns': 'a'}
+113.9621 	EXP 	feedback_msg: autoDraw = False
+113.9621 	EXP 	feedback_msg: autoDraw = False
+113.9621 	EXP 	image_stim: image = 'stimuli/blank.png'
+113.9621 	EXP 	text_stim: height = 0.05
+113.9621 	EXP 	text_stim: height = 0.05
+113.9621 	EXP 	text_stim: height = 0.05
+113.9621 	EXP 	text_stim: text = 'Good'
+113.9621 	EXP 	trial_label_left: text = 'A = \nPositive'
+113.9621 	EXP 	trial_label_right: text = 'L = \nNegative'
+113.9621 	EXP 	fixation: autoDraw = True
+114.3985 	DATA 	Keypress: a
+114.4625 	EXP 	fixation: autoDraw = False
+114.4625 	EXP 	image_stim: autoDraw = True
+114.4625 	EXP 	text_stim: autoDraw = True
+114.4625 	EXP 	button_left: autoDraw = True
+114.4625 	EXP 	trial_label_left: autoDraw = True
+114.4625 	EXP 	button_right: autoDraw = True
+114.4625 	EXP 	trial_label_right: autoDraw = True
+114.9974 	DATA 	Keypress: a
+115.0120 	EXP 	fixation: autoDraw = False
+115.0120 	EXP 	image_stim: autoDraw = False
+115.0120 	EXP 	text_stim: autoDraw = False
+115.0120 	EXP 	button_left: autoDraw = False
+115.0120 	EXP 	trial_label_left: autoDraw = False
+115.0120 	EXP 	button_right: autoDraw = False
+115.0120 	EXP 	trial_label_right: autoDraw = False
+115.0120 	EXP 	feedback_msg: height = 0.1
+115.0120 	EXP 	feedback_msg: height = 0.1
+115.0120 	EXP 	feedback_msg: height = 0.1
+115.0120 	EXP 	feedback_msg: text = '+'
+115.0120 	EXP 	feedback_msg: autoDraw = True
+115.6648 	DATA 	Keypress: a
+115.9972 	EXP 	New trial (rep=0, index=4): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Nasty', 'CorrAns': 'l'}
+116.0121 	EXP 	feedback_msg: autoDraw = False
+116.0121 	EXP 	feedback_msg: autoDraw = False
+116.0121 	EXP 	image_stim: image = 'stimuli/blank.png'
+116.0121 	EXP 	text_stim: height = 0.05
+116.0121 	EXP 	text_stim: height = 0.05
+116.0121 	EXP 	text_stim: height = 0.05
+116.0121 	EXP 	text_stim: text = 'Nasty'
+116.0121 	EXP 	trial_label_left: text = 'A = \nPositive'
+116.0121 	EXP 	trial_label_right: text = 'L = \nNegative'
+116.0121 	EXP 	fixation: autoDraw = True
+116.5123 	EXP 	fixation: autoDraw = False
+116.5123 	EXP 	image_stim: autoDraw = True
+116.5123 	EXP 	text_stim: autoDraw = True
+116.5123 	EXP 	button_left: autoDraw = True
+116.5123 	EXP 	trial_label_left: autoDraw = True
+116.5123 	EXP 	button_right: autoDraw = True
+116.5123 	EXP 	trial_label_right: autoDraw = True
+116.9147 	DATA 	Keypress: l
+116.9289 	EXP 	fixation: autoDraw = False
+116.9289 	EXP 	image_stim: autoDraw = False
+116.9289 	EXP 	text_stim: autoDraw = False
+116.9289 	EXP 	button_left: autoDraw = False
+116.9289 	EXP 	trial_label_left: autoDraw = False
+116.9289 	EXP 	button_right: autoDraw = False
+116.9289 	EXP 	trial_label_right: autoDraw = False
+116.9289 	EXP 	feedback_msg: text = '+'
+116.9289 	EXP 	feedback_msg: autoDraw = True
+117.9139 	EXP 	New trial (rep=0, index=5): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Bad', 'CorrAns': 'l'}
+117.9287 	EXP 	feedback_msg: autoDraw = False
+117.9287 	EXP 	feedback_msg: autoDraw = False
+117.9287 	EXP 	image_stim: image = 'stimuli/blank.png'
+117.9287 	EXP 	text_stim: height = 0.05
+117.9287 	EXP 	text_stim: height = 0.05
+117.9287 	EXP 	text_stim: height = 0.05
+117.9287 	EXP 	text_stim: text = 'Bad'
+117.9287 	EXP 	trial_label_left: text = 'A = \nPositive'
+117.9287 	EXP 	trial_label_right: text = 'L = \nNegative'
+117.9287 	EXP 	fixation: autoDraw = True
+118.4296 	EXP 	fixation: autoDraw = False
+118.4296 	EXP 	image_stim: autoDraw = True
+118.4296 	EXP 	text_stim: autoDraw = True
+118.4296 	EXP 	button_left: autoDraw = True
+118.4296 	EXP 	trial_label_left: autoDraw = True
+118.4296 	EXP 	button_right: autoDraw = True
+118.4296 	EXP 	trial_label_right: autoDraw = True
+119.0242 	DATA 	Keypress: a
+119.0395 	EXP 	fixation: autoDraw = False
+119.0395 	EXP 	image_stim: autoDraw = False
+119.0395 	EXP 	text_stim: autoDraw = False
+119.0395 	EXP 	button_left: autoDraw = False
+119.0395 	EXP 	trial_label_left: autoDraw = False
+119.0395 	EXP 	button_right: autoDraw = False
+119.0395 	EXP 	trial_label_right: autoDraw = False
+119.0395 	EXP 	feedback_msg: height = 0.1
+119.0395 	EXP 	feedback_msg: height = 0.1
+119.0395 	EXP 	feedback_msg: height = 0.1
+119.0395 	EXP 	feedback_msg: text = 'oops'
+119.0395 	EXP 	feedback_msg: autoDraw = True
+120.0298 	EXP 	New trial (rep=0, index=6): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Agony', 'CorrAns': 'l'}
+120.0453 	EXP 	feedback_msg: autoDraw = False
+120.0453 	EXP 	image_stim: image = 'stimuli/blank.png'
+120.0453 	EXP 	text_stim: height = 0.05
+120.0453 	EXP 	text_stim: height = 0.05
+120.0453 	EXP 	text_stim: height = 0.05
+120.0453 	EXP 	text_stim: text = 'Agony'
+120.0453 	EXP 	trial_label_left: text = 'A = \nPositive'
+120.0453 	EXP 	trial_label_right: text = 'L = \nNegative'
+120.0453 	EXP 	fixation: autoDraw = True
+120.4815 	DATA 	Keypress: a
+120.5288 	EXP 	fixation: autoDraw = False
+120.5288 	EXP 	image_stim: autoDraw = True
+120.5288 	EXP 	text_stim: autoDraw = True
+120.5288 	EXP 	button_left: autoDraw = True
+120.5288 	EXP 	trial_label_left: autoDraw = True
+120.5288 	EXP 	button_right: autoDraw = True
+120.5288 	EXP 	trial_label_right: autoDraw = True
+121.2304 	DATA 	Keypress: l
+121.2451 	EXP 	fixation: autoDraw = False
+121.2451 	EXP 	image_stim: autoDraw = False
+121.2451 	EXP 	text_stim: autoDraw = False
+121.2451 	EXP 	button_left: autoDraw = False
+121.2451 	EXP 	trial_label_left: autoDraw = False
+121.2451 	EXP 	button_right: autoDraw = False
+121.2451 	EXP 	trial_label_right: autoDraw = False
+121.2451 	EXP 	feedback_msg: height = 0.1
+121.2451 	EXP 	feedback_msg: height = 0.1
+121.2451 	EXP 	feedback_msg: height = 0.1
+121.2451 	EXP 	feedback_msg: text = '+'
+121.2451 	EXP 	feedback_msg: autoDraw = True
+122.2298 	EXP 	New trial (rep=0, index=7): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Joy', 'CorrAns': 'a'}
+122.2449 	EXP 	feedback_msg: autoDraw = False
+122.2449 	EXP 	feedback_msg: autoDraw = False
+122.2449 	EXP 	image_stim: image = 'stimuli/blank.png'
+122.2449 	EXP 	text_stim: height = 0.05
+122.2449 	EXP 	text_stim: height = 0.05
+122.2449 	EXP 	text_stim: height = 0.05
+122.2449 	EXP 	text_stim: text = 'Joy'
+122.2449 	EXP 	trial_label_left: text = 'A = \nPositive'
+122.2449 	EXP 	trial_label_right: text = 'L = \nNegative'
+122.2449 	EXP 	fixation: autoDraw = True
+122.7455 	EXP 	fixation: autoDraw = False
+122.7455 	EXP 	image_stim: autoDraw = True
+122.7455 	EXP 	text_stim: autoDraw = True
+122.7455 	EXP 	button_left: autoDraw = True
+122.7455 	EXP 	trial_label_left: autoDraw = True
+122.7455 	EXP 	button_right: autoDraw = True
+122.7455 	EXP 	trial_label_right: autoDraw = True
+123.1637 	DATA 	Keypress: a
+123.1783 	EXP 	fixation: autoDraw = False
+123.1783 	EXP 	image_stim: autoDraw = False
+123.1783 	EXP 	text_stim: autoDraw = False
+123.1783 	EXP 	button_left: autoDraw = False
+123.1783 	EXP 	trial_label_left: autoDraw = False
+123.1783 	EXP 	button_right: autoDraw = False
+123.1783 	EXP 	trial_label_right: autoDraw = False
+123.1783 	EXP 	feedback_msg: text = '+'
+123.1783 	EXP 	feedback_msg: autoDraw = True
+124.1637 	EXP 	New trial (rep=0, index=8): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Pleasure', 'CorrAns': 'a'}
+124.1784 	EXP 	feedback_msg: autoDraw = False
+124.1784 	EXP 	feedback_msg: autoDraw = False
+124.1784 	EXP 	image_stim: image = 'stimuli/blank.png'
+124.1784 	EXP 	text_stim: height = 0.05
+124.1784 	EXP 	text_stim: height = 0.05
+124.1784 	EXP 	text_stim: height = 0.05
+124.1784 	EXP 	text_stim: text = 'Pleasure'
+124.1784 	EXP 	trial_label_left: text = 'A = \nPositive'
+124.1784 	EXP 	trial_label_right: text = 'L = \nNegative'
+124.1784 	EXP 	fixation: autoDraw = True
+124.6783 	EXP 	fixation: autoDraw = False
+124.6783 	EXP 	image_stim: autoDraw = True
+124.6783 	EXP 	text_stim: autoDraw = True
+124.6783 	EXP 	button_left: autoDraw = True
+124.6783 	EXP 	trial_label_left: autoDraw = True
+124.6783 	EXP 	button_right: autoDraw = True
+124.6783 	EXP 	trial_label_right: autoDraw = True
+125.1136 	DATA 	Keypress: l
+125.1283 	EXP 	fixation: autoDraw = False
+125.1283 	EXP 	image_stim: autoDraw = False
+125.1283 	EXP 	text_stim: autoDraw = False
+125.1283 	EXP 	button_left: autoDraw = False
+125.1283 	EXP 	trial_label_left: autoDraw = False
+125.1283 	EXP 	button_right: autoDraw = False
+125.1283 	EXP 	trial_label_right: autoDraw = False
+125.1283 	EXP 	feedback_msg: height = 0.1
+125.1283 	EXP 	feedback_msg: height = 0.1
+125.1283 	EXP 	feedback_msg: height = 0.1
+125.1283 	EXP 	feedback_msg: text = 'oops'
+125.1283 	EXP 	feedback_msg: autoDraw = True
+126.1131 	EXP 	New trial (rep=0, index=9): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Love', 'CorrAns': 'a'}
+126.1281 	EXP 	feedback_msg: autoDraw = False
+126.1281 	EXP 	feedback_msg: autoDraw = False
+126.1281 	EXP 	image_stim: image = 'stimuli/blank.png'
+126.1281 	EXP 	text_stim: height = 0.05
+126.1281 	EXP 	text_stim: height = 0.05
+126.1281 	EXP 	text_stim: height = 0.05
+126.1281 	EXP 	text_stim: text = 'Love'
+126.1281 	EXP 	trial_label_left: text = 'A = \nPositive'
+126.1281 	EXP 	trial_label_right: text = 'L = \nNegative'
+126.1281 	EXP 	fixation: autoDraw = True
+126.6281 	EXP 	fixation: autoDraw = False
+126.6281 	EXP 	image_stim: autoDraw = True
+126.6281 	EXP 	text_stim: autoDraw = True
+126.6281 	EXP 	button_left: autoDraw = True
+126.6281 	EXP 	trial_label_left: autoDraw = True
+126.6281 	EXP 	button_right: autoDraw = True
+126.6281 	EXP 	trial_label_right: autoDraw = True
+126.7805 	DATA 	Keypress: a
+126.7947 	EXP 	fixation: autoDraw = False
+126.7947 	EXP 	image_stim: autoDraw = False
+126.7947 	EXP 	text_stim: autoDraw = False
+126.7947 	EXP 	button_left: autoDraw = False
+126.7947 	EXP 	trial_label_left: autoDraw = False
+126.7947 	EXP 	button_right: autoDraw = False
+126.7947 	EXP 	trial_label_right: autoDraw = False
+126.7947 	EXP 	feedback_msg: height = 0.1
+126.7947 	EXP 	feedback_msg: height = 0.1
+126.7947 	EXP 	feedback_msg: height = 0.1
+126.7947 	EXP 	feedback_msg: text = '+'
+126.7947 	EXP 	feedback_msg: autoDraw = True
+127.7799 	EXP 	New trial (rep=0, index=1): {'conds_file': 'cong_train.xlsx', 'label_left': 'A = \nHealthy', 'label_right': 'L = \nUnhealthy'}
+127.8132 	EXP 	feedback_msg: autoDraw = False
+127.8132 	EXP 	feedback_msg: autoDraw = False
+127.8132 	EXP 	ready_label_L: height = 0.05
+127.8132 	EXP 	ready_label_L: height = 0.05
+127.8132 	EXP 	ready_label_L: height = 0.05
+127.8132 	EXP 	ready_label_L: text = 'A = \nHealthy'
+127.8132 	EXP 	ready_label_R: height = 0.05
+127.8132 	EXP 	ready_label_R: height = 0.05
+127.8132 	EXP 	ready_label_R: height = 0.05
+127.8132 	EXP 	ready_label_R: text = 'L = \nUnhealthy'
+127.8132 	EXP 	main_ready_msg: autoDraw = True
+127.8132 	EXP 	button_L: autoDraw = True
+127.8132 	EXP 	ready_label_L: autoDraw = True
+127.8132 	EXP 	button_R: autoDraw = True
+127.8132 	EXP 	ready_label_R: autoDraw = True
+130.4123 	DATA 	Keypress: space
+130.4299 	EXP 	Imported cong_train.xlsx as conditions, 10 conditions, 3 params
+130.4310 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+130.4315 	EXP 	New trial (rep=0, index=0): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Yogurt', 'CorrAns': 'a'}
+130.4539 	EXP 	main_ready_msg: autoDraw = False
+130.4539 	EXP 	button_L: autoDraw = False
+130.4539 	EXP 	ready_label_L: autoDraw = False
+130.4539 	EXP 	button_R: autoDraw = False
+130.4539 	EXP 	ready_label_R: autoDraw = False
+130.4539 	EXP 	image_stim: image = 'stimuli/blank.png'
+130.4539 	EXP 	text_stim: height = 0.05
+130.4539 	EXP 	text_stim: height = 0.05
+130.4539 	EXP 	text_stim: height = 0.05
+130.4539 	EXP 	text_stim: text = 'Yogurt'
+130.4539 	EXP 	trial_label_left: height = 0.05
+130.4539 	EXP 	trial_label_left: height = 0.05
+130.4539 	EXP 	trial_label_left: height = 0.05
+130.4539 	EXP 	trial_label_left: text = 'A = \nHealthy'
+130.4539 	EXP 	trial_label_right: height = 0.05
+130.4539 	EXP 	trial_label_right: height = 0.05
+130.4539 	EXP 	trial_label_right: height = 0.05
+130.4539 	EXP 	trial_label_right: text = 'L = \nUnhealthy'
+130.4539 	EXP 	fixation: autoDraw = True
+130.9282 	EXP 	fixation: autoDraw = False
+130.9282 	EXP 	image_stim: autoDraw = True
+130.9282 	EXP 	text_stim: autoDraw = True
+130.9282 	EXP 	button_left: autoDraw = True
+130.9282 	EXP 	trial_label_left: autoDraw = True
+130.9282 	EXP 	button_right: autoDraw = True
+130.9282 	EXP 	trial_label_right: autoDraw = True
+131.7631 	DATA 	Keypress: a
+131.7781 	EXP 	fixation: autoDraw = False
+131.7781 	EXP 	image_stim: autoDraw = False
+131.7781 	EXP 	text_stim: autoDraw = False
+131.7781 	EXP 	button_left: autoDraw = False
+131.7781 	EXP 	trial_label_left: autoDraw = False
+131.7781 	EXP 	button_right: autoDraw = False
+131.7781 	EXP 	trial_label_right: autoDraw = False
+131.7781 	EXP 	feedback_msg: text = '+'
+131.7781 	EXP 	feedback_msg: autoDraw = True
+132.7629 	EXP 	New trial (rep=0, index=1): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Vegetables', 'CorrAns': 'a'}
+132.7809 	EXP 	feedback_msg: autoDraw = False
+132.7809 	EXP 	feedback_msg: autoDraw = False
+132.7809 	EXP 	image_stim: image = 'stimuli/blank.png'
+132.7809 	EXP 	text_stim: height = 0.05
+132.7809 	EXP 	text_stim: height = 0.05
+132.7809 	EXP 	text_stim: height = 0.05
+132.7809 	EXP 	text_stim: text = 'Vegetables'
+132.7809 	EXP 	trial_label_left: text = 'A = \nHealthy'
+132.7809 	EXP 	trial_label_right: text = 'L = \nUnhealthy'
+132.7809 	EXP 	fixation: autoDraw = True
+133.2779 	EXP 	fixation: autoDraw = False
+133.2779 	EXP 	image_stim: autoDraw = True
+133.2779 	EXP 	text_stim: autoDraw = True
+133.2779 	EXP 	button_left: autoDraw = True
+133.2779 	EXP 	trial_label_left: autoDraw = True
+133.2779 	EXP 	button_right: autoDraw = True
+133.2779 	EXP 	trial_label_right: autoDraw = True
+133.8502 	DATA 	Keypress: a
+133.8775 	EXP 	fixation: autoDraw = False
+133.8775 	EXP 	image_stim: autoDraw = False
+133.8775 	EXP 	text_stim: autoDraw = False
+133.8775 	EXP 	button_left: autoDraw = False
+133.8775 	EXP 	trial_label_left: autoDraw = False
+133.8775 	EXP 	button_right: autoDraw = False
+133.8775 	EXP 	trial_label_right: autoDraw = False
+133.8775 	EXP 	feedback_msg: text = '+'
+133.8775 	EXP 	feedback_msg: autoDraw = True
+134.8627 	EXP 	New trial (rep=0, index=2): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Fruit Juice', 'CorrAns': 'a'}
+134.8798 	EXP 	feedback_msg: autoDraw = False
+134.8798 	EXP 	feedback_msg: autoDraw = False
+134.8798 	EXP 	image_stim: image = 'stimuli/blank.png'
+134.8798 	EXP 	text_stim: height = 0.05
+134.8798 	EXP 	text_stim: height = 0.05
+134.8798 	EXP 	text_stim: height = 0.05
+134.8798 	EXP 	text_stim: text = 'Fruit Juice'
+134.8798 	EXP 	trial_label_left: text = 'A = \nHealthy'
+134.8798 	EXP 	trial_label_right: text = 'L = \nUnhealthy'
+134.8798 	EXP 	fixation: autoDraw = True
+135.3777 	EXP 	fixation: autoDraw = False
+135.3777 	EXP 	image_stim: autoDraw = True
+135.3777 	EXP 	text_stim: autoDraw = True
+135.3777 	EXP 	button_left: autoDraw = True
+135.3777 	EXP 	trial_label_left: autoDraw = True
+135.3777 	EXP 	button_right: autoDraw = True
+135.3777 	EXP 	trial_label_right: autoDraw = True
+135.8795 	DATA 	Keypress: a
+135.8942 	EXP 	fixation: autoDraw = False
+135.8942 	EXP 	image_stim: autoDraw = False
+135.8942 	EXP 	text_stim: autoDraw = False
+135.8942 	EXP 	button_left: autoDraw = False
+135.8942 	EXP 	trial_label_left: autoDraw = False
+135.8942 	EXP 	button_right: autoDraw = False
+135.8942 	EXP 	trial_label_right: autoDraw = False
+135.8942 	EXP 	feedback_msg: text = '+'
+135.8942 	EXP 	feedback_msg: autoDraw = True
+136.8790 	EXP 	New trial (rep=0, index=3): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Salad', 'CorrAns': 'a'}
+136.8939 	EXP 	feedback_msg: autoDraw = False
+136.8939 	EXP 	feedback_msg: autoDraw = False
+136.8939 	EXP 	image_stim: image = 'stimuli/blank.png'
+136.8939 	EXP 	text_stim: height = 0.05
+136.8939 	EXP 	text_stim: height = 0.05
+136.8939 	EXP 	text_stim: height = 0.05
+136.8939 	EXP 	text_stim: text = 'Salad'
+136.8939 	EXP 	trial_label_left: text = 'A = \nHealthy'
+136.8939 	EXP 	trial_label_right: text = 'L = \nUnhealthy'
+136.8939 	EXP 	fixation: autoDraw = True
+137.3948 	EXP 	fixation: autoDraw = False
+137.3948 	EXP 	image_stim: autoDraw = True
+137.3948 	EXP 	text_stim: autoDraw = True
+137.3948 	EXP 	button_left: autoDraw = True
+137.3948 	EXP 	trial_label_left: autoDraw = True
+137.3948 	EXP 	button_right: autoDraw = True
+137.3948 	EXP 	trial_label_right: autoDraw = True
+137.8462 	DATA 	Keypress: a
+137.8607 	EXP 	fixation: autoDraw = False
+137.8607 	EXP 	image_stim: autoDraw = False
+137.8607 	EXP 	text_stim: autoDraw = False
+137.8607 	EXP 	button_left: autoDraw = False
+137.8607 	EXP 	trial_label_left: autoDraw = False
+137.8607 	EXP 	button_right: autoDraw = False
+137.8607 	EXP 	trial_label_right: autoDraw = False
+137.8607 	EXP 	feedback_msg: text = '+'
+137.8607 	EXP 	feedback_msg: autoDraw = True
+138.8455 	EXP 	New trial (rep=0, index=4): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Soft Drinks', 'CorrAns': 'l'}
+138.8627 	EXP 	feedback_msg: autoDraw = False
+138.8627 	EXP 	feedback_msg: autoDraw = False
+138.8627 	EXP 	image_stim: image = 'stimuli/blank.png'
+138.8627 	EXP 	text_stim: height = 0.05
+138.8627 	EXP 	text_stim: height = 0.05
+138.8627 	EXP 	text_stim: height = 0.05
+138.8627 	EXP 	text_stim: text = 'Soft Drinks'
+138.8627 	EXP 	trial_label_left: text = 'A = \nHealthy'
+138.8627 	EXP 	trial_label_right: text = 'L = \nUnhealthy'
+138.8627 	EXP 	fixation: autoDraw = True
+139.3612 	EXP 	fixation: autoDraw = False
+139.3612 	EXP 	image_stim: autoDraw = True
+139.3612 	EXP 	text_stim: autoDraw = True
+139.3612 	EXP 	button_left: autoDraw = True
+139.3612 	EXP 	trial_label_left: autoDraw = True
+139.3612 	EXP 	button_right: autoDraw = True
+139.3612 	EXP 	trial_label_right: autoDraw = True
+139.9503 	DATA 	Keypress: l
+139.9772 	EXP 	fixation: autoDraw = False
+139.9772 	EXP 	image_stim: autoDraw = False
+139.9772 	EXP 	text_stim: autoDraw = False
+139.9772 	EXP 	button_left: autoDraw = False
+139.9772 	EXP 	trial_label_left: autoDraw = False
+139.9772 	EXP 	button_right: autoDraw = False
+139.9772 	EXP 	trial_label_right: autoDraw = False
+139.9772 	EXP 	feedback_msg: text = '+'
+139.9772 	EXP 	feedback_msg: autoDraw = True
+140.9622 	EXP 	New trial (rep=0, index=5): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Burger', 'CorrAns': 'l'}
+140.9771 	EXP 	feedback_msg: autoDraw = False
+140.9771 	EXP 	feedback_msg: autoDraw = False
+140.9771 	EXP 	image_stim: image = 'stimuli/blank.png'
+140.9771 	EXP 	text_stim: height = 0.05
+140.9771 	EXP 	text_stim: height = 0.05
+140.9771 	EXP 	text_stim: height = 0.05
+140.9771 	EXP 	text_stim: text = 'Burger'
+140.9771 	EXP 	trial_label_left: text = 'A = \nHealthy'
+140.9771 	EXP 	trial_label_right: text = 'L = \nUnhealthy'
+140.9771 	EXP 	fixation: autoDraw = True
+141.4773 	EXP 	fixation: autoDraw = False
+141.4773 	EXP 	image_stim: autoDraw = True
+141.4773 	EXP 	text_stim: autoDraw = True
+141.4773 	EXP 	button_left: autoDraw = True
+141.4773 	EXP 	trial_label_left: autoDraw = True
+141.4773 	EXP 	button_right: autoDraw = True
+141.4773 	EXP 	trial_label_right: autoDraw = True
+142.3290 	DATA 	Keypress: a
+142.3436 	EXP 	fixation: autoDraw = False
+142.3436 	EXP 	image_stim: autoDraw = False
+142.3436 	EXP 	text_stim: autoDraw = False
+142.3436 	EXP 	button_left: autoDraw = False
+142.3436 	EXP 	trial_label_left: autoDraw = False
+142.3436 	EXP 	button_right: autoDraw = False
+142.3436 	EXP 	trial_label_right: autoDraw = False
+142.3436 	EXP 	feedback_msg: height = 0.1
+142.3436 	EXP 	feedback_msg: height = 0.1
+142.3436 	EXP 	feedback_msg: height = 0.1
+142.3436 	EXP 	feedback_msg: text = 'oops'
+142.3436 	EXP 	feedback_msg: autoDraw = True
+143.3290 	EXP 	New trial (rep=0, index=6): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Fruit Salad', 'CorrAns': 'a'}
+143.3439 	EXP 	feedback_msg: autoDraw = False
+143.3439 	EXP 	feedback_msg: autoDraw = False
+143.3439 	EXP 	image_stim: image = 'stimuli/blank.png'
+143.3439 	EXP 	text_stim: height = 0.05
+143.3439 	EXP 	text_stim: height = 0.05
+143.3439 	EXP 	text_stim: height = 0.05
+143.3439 	EXP 	text_stim: text = 'Fruit Salad'
+143.3439 	EXP 	trial_label_left: text = 'A = \nHealthy'
+143.3439 	EXP 	trial_label_right: text = 'L = \nUnhealthy'
+143.3439 	EXP 	fixation: autoDraw = True
+143.8439 	EXP 	fixation: autoDraw = False
+143.8439 	EXP 	image_stim: autoDraw = True
+143.8439 	EXP 	text_stim: autoDraw = True
+143.8439 	EXP 	button_left: autoDraw = True
+143.8439 	EXP 	trial_label_left: autoDraw = True
+143.8439 	EXP 	button_right: autoDraw = True
+143.8439 	EXP 	trial_label_right: autoDraw = True
+144.5962 	DATA 	Keypress: a
+144.6105 	EXP 	fixation: autoDraw = False
+144.6105 	EXP 	image_stim: autoDraw = False
+144.6105 	EXP 	text_stim: autoDraw = False
+144.6105 	EXP 	button_left: autoDraw = False
+144.6105 	EXP 	trial_label_left: autoDraw = False
+144.6105 	EXP 	button_right: autoDraw = False
+144.6105 	EXP 	trial_label_right: autoDraw = False
+144.6105 	EXP 	feedback_msg: height = 0.1
+144.6105 	EXP 	feedback_msg: height = 0.1
+144.6105 	EXP 	feedback_msg: height = 0.1
+144.6105 	EXP 	feedback_msg: text = '+'
+144.6105 	EXP 	feedback_msg: autoDraw = True
+145.5951 	EXP 	New trial (rep=0, index=7): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Fries', 'CorrAns': 'l'}
+145.6102 	EXP 	feedback_msg: autoDraw = False
+145.6102 	EXP 	feedback_msg: autoDraw = False
+145.6102 	EXP 	image_stim: image = 'stimuli/blank.png'
+145.6102 	EXP 	text_stim: height = 0.05
+145.6102 	EXP 	text_stim: height = 0.05
+145.6102 	EXP 	text_stim: height = 0.05
+145.6102 	EXP 	text_stim: text = 'Fries'
+145.6102 	EXP 	trial_label_left: text = 'A = \nHealthy'
+145.6102 	EXP 	trial_label_right: text = 'L = \nUnhealthy'
+145.6102 	EXP 	fixation: autoDraw = True
+146.1104 	EXP 	fixation: autoDraw = False
+146.1104 	EXP 	image_stim: autoDraw = True
+146.1104 	EXP 	text_stim: autoDraw = True
+146.1104 	EXP 	button_left: autoDraw = True
+146.1104 	EXP 	trial_label_left: autoDraw = True
+146.1104 	EXP 	button_right: autoDraw = True
+146.1104 	EXP 	trial_label_right: autoDraw = True
+146.7786 	DATA 	Keypress: a
+146.7936 	EXP 	fixation: autoDraw = False
+146.7936 	EXP 	image_stim: autoDraw = False
+146.7936 	EXP 	text_stim: autoDraw = False
+146.7936 	EXP 	button_left: autoDraw = False
+146.7936 	EXP 	trial_label_left: autoDraw = False
+146.7936 	EXP 	button_right: autoDraw = False
+146.7936 	EXP 	trial_label_right: autoDraw = False
+146.7936 	EXP 	feedback_msg: height = 0.1
+146.7936 	EXP 	feedback_msg: height = 0.1
+146.7936 	EXP 	feedback_msg: height = 0.1
+146.7936 	EXP 	feedback_msg: text = 'oops'
+146.7936 	EXP 	feedback_msg: autoDraw = True
+147.7782 	EXP 	New trial (rep=0, index=8): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Pizza', 'CorrAns': 'l'}
+147.7934 	EXP 	feedback_msg: autoDraw = False
+147.7934 	EXP 	feedback_msg: autoDraw = False
+147.7934 	EXP 	image_stim: image = 'stimuli/blank.png'
+147.7934 	EXP 	text_stim: height = 0.05
+147.7934 	EXP 	text_stim: height = 0.05
+147.7934 	EXP 	text_stim: height = 0.05
+147.7934 	EXP 	text_stim: text = 'Pizza'
+147.7934 	EXP 	trial_label_left: text = 'A = \nHealthy'
+147.7934 	EXP 	trial_label_right: text = 'L = \nUnhealthy'
+147.7934 	EXP 	fixation: autoDraw = True
+148.2940 	EXP 	fixation: autoDraw = False
+148.2940 	EXP 	image_stim: autoDraw = True
+148.2940 	EXP 	text_stim: autoDraw = True
+148.2940 	EXP 	button_left: autoDraw = True
+148.2940 	EXP 	trial_label_left: autoDraw = True
+148.2940 	EXP 	button_right: autoDraw = True
+148.2940 	EXP 	trial_label_right: autoDraw = True
+148.8506 	DATA 	Keypress: l
+148.8766 	EXP 	fixation: autoDraw = False
+148.8766 	EXP 	image_stim: autoDraw = False
+148.8766 	EXP 	text_stim: autoDraw = False
+148.8766 	EXP 	button_left: autoDraw = False
+148.8766 	EXP 	trial_label_left: autoDraw = False
+148.8766 	EXP 	button_right: autoDraw = False
+148.8766 	EXP 	trial_label_right: autoDraw = False
+148.8766 	EXP 	feedback_msg: height = 0.1
+148.8766 	EXP 	feedback_msg: height = 0.1
+148.8766 	EXP 	feedback_msg: height = 0.1
+148.8766 	EXP 	feedback_msg: text = '+'
+148.8766 	EXP 	feedback_msg: autoDraw = True
+149.8618 	EXP 	New trial (rep=0, index=9): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Biriyani', 'CorrAns': 'l'}
+149.8766 	EXP 	feedback_msg: autoDraw = False
+149.8766 	EXP 	feedback_msg: autoDraw = False
+149.8766 	EXP 	image_stim: image = 'stimuli/blank.png'
+149.8766 	EXP 	text_stim: height = 0.05
+149.8766 	EXP 	text_stim: height = 0.05
+149.8766 	EXP 	text_stim: height = 0.05
+149.8766 	EXP 	text_stim: text = 'Biriyani'
+149.8766 	EXP 	trial_label_left: text = 'A = \nHealthy'
+149.8766 	EXP 	trial_label_right: text = 'L = \nUnhealthy'
+149.8766 	EXP 	fixation: autoDraw = True
+150.3769 	EXP 	fixation: autoDraw = False
+150.3769 	EXP 	image_stim: autoDraw = True
+150.3769 	EXP 	text_stim: autoDraw = True
+150.3769 	EXP 	button_left: autoDraw = True
+150.3769 	EXP 	trial_label_left: autoDraw = True
+150.3769 	EXP 	button_right: autoDraw = True
+150.3769 	EXP 	trial_label_right: autoDraw = True
+151.1281 	DATA 	Keypress: a
+151.1431 	EXP 	fixation: autoDraw = False
+151.1431 	EXP 	image_stim: autoDraw = False
+151.1431 	EXP 	text_stim: autoDraw = False
+151.1431 	EXP 	button_left: autoDraw = False
+151.1431 	EXP 	trial_label_left: autoDraw = False
+151.1431 	EXP 	button_right: autoDraw = False
+151.1431 	EXP 	trial_label_right: autoDraw = False
+151.1431 	EXP 	feedback_msg: height = 0.1
+151.1431 	EXP 	feedback_msg: height = 0.1
+151.1431 	EXP 	feedback_msg: height = 0.1
+151.1431 	EXP 	feedback_msg: text = 'oops'
+151.1431 	EXP 	feedback_msg: autoDraw = True
+152.1283 	EXP 	New trial (rep=0, index=2): {'conds_file': 'cong_test.xlsx', 'label_left': 'A = \nHealthy or \nPositive', 'label_right': 'L = \nUnhealthy or \nNegative'}
+152.1537 	EXP 	feedback_msg: autoDraw = False
+152.1537 	EXP 	feedback_msg: autoDraw = False
+152.1537 	EXP 	ready_label_L: height = 0.05
+152.1537 	EXP 	ready_label_L: height = 0.05
+152.1537 	EXP 	ready_label_L: height = 0.05
+152.1537 	EXP 	ready_label_L: text = 'A = \nHealthy or \nPositive'
+152.1537 	EXP 	ready_label_R: height = 0.05
+152.1537 	EXP 	ready_label_R: height = 0.05
+152.1537 	EXP 	ready_label_R: height = 0.05
+152.1537 	EXP 	ready_label_R: text = 'L = \nUnhealthy or \nNegative'
+152.1537 	EXP 	main_ready_msg: autoDraw = True
+152.1537 	EXP 	button_L: autoDraw = True
+152.1537 	EXP 	ready_label_L: autoDraw = True
+152.1537 	EXP 	button_R: autoDraw = True
+152.1537 	EXP 	ready_label_R: autoDraw = True
+158.9108 	DATA 	Keypress: space
+158.9296 	EXP 	Imported cong_test.xlsx as conditions, 20 conditions, 3 params
+158.9309 	EXP 	Created sequence: random, trialTypes=20, nReps=1, seed=None
+158.9315 	EXP 	New trial (rep=0, index=0): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Biriyani', 'CorrAns': 'l'}
+158.9487 	EXP 	main_ready_msg: autoDraw = False
+158.9487 	EXP 	button_L: autoDraw = False
+158.9487 	EXP 	ready_label_L: autoDraw = False
+158.9487 	EXP 	button_R: autoDraw = False
+158.9487 	EXP 	ready_label_R: autoDraw = False
+158.9487 	EXP 	image_stim: image = 'stimuli/blank.png'
+158.9487 	EXP 	text_stim: text = 'Biriyani'
+158.9487 	EXP 	trial_label_left: height = 0.05
+158.9487 	EXP 	trial_label_left: height = 0.05
+158.9487 	EXP 	trial_label_left: height = 0.05
+158.9487 	EXP 	trial_label_left: text = 'A = \nHealthy or \nPositive'
+158.9487 	EXP 	trial_label_right: height = 0.05
+158.9487 	EXP 	trial_label_right: height = 0.05
+158.9487 	EXP 	trial_label_right: height = 0.05
+158.9487 	EXP 	trial_label_right: text = 'L = \nUnhealthy or \nNegative'
+158.9487 	EXP 	fixation: autoDraw = True
+159.4266 	EXP 	fixation: autoDraw = False
+159.4266 	EXP 	image_stim: autoDraw = True
+159.4266 	EXP 	text_stim: autoDraw = True
+159.4266 	EXP 	button_left: autoDraw = True
+159.4266 	EXP 	trial_label_left: autoDraw = True
+159.4266 	EXP 	button_right: autoDraw = True
+159.4266 	EXP 	trial_label_right: autoDraw = True
+160.1649 	DATA 	Keypress: a
+160.1926 	EXP 	fixation: autoDraw = False
+160.1926 	EXP 	image_stim: autoDraw = False
+160.1926 	EXP 	text_stim: autoDraw = False
+160.1926 	EXP 	button_left: autoDraw = False
+160.1926 	EXP 	trial_label_left: autoDraw = False
+160.1926 	EXP 	button_right: autoDraw = False
+160.1926 	EXP 	trial_label_right: autoDraw = False
+160.1926 	EXP 	feedback_msg: text = 'oops'
+160.1926 	EXP 	feedback_msg: autoDraw = True
+161.1778 	EXP 	New trial (rep=0, index=1): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Love', 'CorrAns': 'a'}
+161.1925 	EXP 	feedback_msg: autoDraw = False
+161.1925 	EXP 	feedback_msg: autoDraw = False
+161.1925 	EXP 	image_stim: image = 'stimuli/blank.png'
+161.1925 	EXP 	text_stim: height = 0.05
+161.1925 	EXP 	text_stim: height = 0.05
+161.1925 	EXP 	text_stim: height = 0.05
+161.1925 	EXP 	text_stim: text = 'Love'
+161.1925 	EXP 	trial_label_left: text = 'A = \nHealthy or \nPositive'
+161.1925 	EXP 	trial_label_right: text = 'L = \nUnhealthy or \nNegative'
+161.1925 	EXP 	fixation: autoDraw = True
+161.6929 	EXP 	fixation: autoDraw = False
+161.6929 	EXP 	image_stim: autoDraw = True
+161.6929 	EXP 	text_stim: autoDraw = True
+161.6929 	EXP 	button_left: autoDraw = True
+161.6929 	EXP 	trial_label_left: autoDraw = True
+161.6929 	EXP 	button_right: autoDraw = True
+161.6929 	EXP 	trial_label_right: autoDraw = True
+162.2486 	DATA 	Keypress: a
+162.2757 	EXP 	fixation: autoDraw = False
+162.2757 	EXP 	image_stim: autoDraw = False
+162.2757 	EXP 	text_stim: autoDraw = False
+162.2757 	EXP 	button_left: autoDraw = False
+162.2757 	EXP 	trial_label_left: autoDraw = False
+162.2757 	EXP 	button_right: autoDraw = False
+162.2757 	EXP 	trial_label_right: autoDraw = False
+162.2757 	EXP 	feedback_msg: height = 0.1
+162.2757 	EXP 	feedback_msg: height = 0.1
+162.2757 	EXP 	feedback_msg: height = 0.1
+162.2757 	EXP 	feedback_msg: text = '+'
+162.2757 	EXP 	feedback_msg: autoDraw = True
+163.2609 	EXP 	New trial (rep=0, index=2): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Fries', 'CorrAns': 'l'}
+163.2757 	EXP 	feedback_msg: autoDraw = False
+163.2757 	EXP 	feedback_msg: autoDraw = False
+163.2757 	EXP 	image_stim: image = 'stimuli/blank.png'
+163.2757 	EXP 	text_stim: height = 0.05
+163.2757 	EXP 	text_stim: height = 0.05
+163.2757 	EXP 	text_stim: height = 0.05
+163.2757 	EXP 	text_stim: text = 'Fries'
+163.2757 	EXP 	trial_label_left: text = 'A = \nHealthy or \nPositive'
+163.2757 	EXP 	trial_label_right: text = 'L = \nUnhealthy or \nNegative'
+163.2757 	EXP 	fixation: autoDraw = True
+163.7759 	EXP 	fixation: autoDraw = False
+163.7759 	EXP 	image_stim: autoDraw = True
+163.7759 	EXP 	text_stim: autoDraw = True
+163.7759 	EXP 	button_left: autoDraw = True
+163.7759 	EXP 	trial_label_left: autoDraw = True
+163.7759 	EXP 	button_right: autoDraw = True
+163.7759 	EXP 	trial_label_right: autoDraw = True
+164.3108 	DATA 	Keypress: l
+164.3257 	EXP 	fixation: autoDraw = False
+164.3257 	EXP 	image_stim: autoDraw = False
+164.3257 	EXP 	text_stim: autoDraw = False
+164.3257 	EXP 	button_left: autoDraw = False
+164.3257 	EXP 	trial_label_left: autoDraw = False
+164.3257 	EXP 	button_right: autoDraw = False
+164.3257 	EXP 	trial_label_right: autoDraw = False
+164.3257 	EXP 	feedback_msg: text = '+'
+164.3257 	EXP 	feedback_msg: autoDraw = True
+165.3106 	EXP 	New trial (rep=0, index=3): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Yogurt', 'CorrAns': 'a'}
+165.3255 	EXP 	feedback_msg: autoDraw = False
+165.3255 	EXP 	feedback_msg: autoDraw = False
+165.3255 	EXP 	image_stim: image = 'stimuli/blank.png'
+165.3255 	EXP 	text_stim: height = 0.05
+165.3255 	EXP 	text_stim: height = 0.05
+165.3255 	EXP 	text_stim: height = 0.05
+165.3255 	EXP 	text_stim: text = 'Yogurt'
+165.3255 	EXP 	trial_label_left: text = 'A = \nHealthy or \nPositive'
+165.3255 	EXP 	trial_label_right: text = 'L = \nUnhealthy or \nNegative'
+165.3255 	EXP 	fixation: autoDraw = True
+165.8257 	EXP 	fixation: autoDraw = False
+165.8257 	EXP 	image_stim: autoDraw = True
+165.8257 	EXP 	text_stim: autoDraw = True
+165.8257 	EXP 	button_left: autoDraw = True
+165.8257 	EXP 	trial_label_left: autoDraw = True
+165.8257 	EXP 	button_right: autoDraw = True
+165.8257 	EXP 	trial_label_right: autoDraw = True
+166.4319 	DATA 	Keypress: a
+166.4589 	EXP 	fixation: autoDraw = False
+166.4589 	EXP 	image_stim: autoDraw = False
+166.4589 	EXP 	text_stim: autoDraw = False
+166.4589 	EXP 	button_left: autoDraw = False
+166.4589 	EXP 	trial_label_left: autoDraw = False
+166.4589 	EXP 	button_right: autoDraw = False
+166.4589 	EXP 	trial_label_right: autoDraw = False
+166.4589 	EXP 	feedback_msg: text = '+'
+166.4589 	EXP 	feedback_msg: autoDraw = True
+167.4436 	EXP 	New trial (rep=0, index=4): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Hurt', 'CorrAns': 'l'}
+167.4590 	EXP 	feedback_msg: autoDraw = False
+167.4590 	EXP 	feedback_msg: autoDraw = False
+167.4590 	EXP 	image_stim: image = 'stimuli/blank.png'
+167.4590 	EXP 	text_stim: height = 0.05
+167.4590 	EXP 	text_stim: height = 0.05
+167.4590 	EXP 	text_stim: height = 0.05
+167.4590 	EXP 	text_stim: text = 'Hurt'
+167.4590 	EXP 	trial_label_left: text = 'A = \nHealthy or \nPositive'
+167.4590 	EXP 	trial_label_right: text = 'L = \nUnhealthy or \nNegative'
+167.4590 	EXP 	fixation: autoDraw = True
+167.9590 	EXP 	fixation: autoDraw = False
+167.9590 	EXP 	image_stim: autoDraw = True
+167.9590 	EXP 	text_stim: autoDraw = True
+167.9590 	EXP 	button_left: autoDraw = True
+167.9590 	EXP 	trial_label_left: autoDraw = True
+167.9590 	EXP 	button_right: autoDraw = True
+167.9590 	EXP 	trial_label_right: autoDraw = True
+168.5943 	DATA 	Keypress: l
+168.6086 	EXP 	fixation: autoDraw = False
+168.6086 	EXP 	image_stim: autoDraw = False
+168.6086 	EXP 	text_stim: autoDraw = False
+168.6086 	EXP 	button_left: autoDraw = False
+168.6086 	EXP 	trial_label_left: autoDraw = False
+168.6086 	EXP 	button_right: autoDraw = False
+168.6086 	EXP 	trial_label_right: autoDraw = False
+168.6086 	EXP 	feedback_msg: text = '+'
+168.6086 	EXP 	feedback_msg: autoDraw = True
+169.5934 	EXP 	New trial (rep=0, index=5): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Joy', 'CorrAns': 'a'}
+169.6087 	EXP 	feedback_msg: autoDraw = False
+169.6087 	EXP 	feedback_msg: autoDraw = False
+169.6087 	EXP 	image_stim: image = 'stimuli/blank.png'
+169.6087 	EXP 	text_stim: height = 0.05
+169.6087 	EXP 	text_stim: height = 0.05
+169.6087 	EXP 	text_stim: height = 0.05
+169.6087 	EXP 	text_stim: text = 'Joy'
+169.6087 	EXP 	trial_label_left: text = 'A = \nHealthy or \nPositive'
+169.6087 	EXP 	trial_label_right: text = 'L = \nUnhealthy or \nNegative'
+169.6087 	EXP 	fixation: autoDraw = True
+170.1089 	EXP 	fixation: autoDraw = False
+170.1089 	EXP 	image_stim: autoDraw = True
+170.1089 	EXP 	text_stim: autoDraw = True
+170.1089 	EXP 	button_left: autoDraw = True
+170.1089 	EXP 	trial_label_left: autoDraw = True
+170.1089 	EXP 	button_right: autoDraw = True
+170.1089 	EXP 	trial_label_right: autoDraw = True
+170.5647 	DATA 	Keypress: a
+170.5921 	EXP 	fixation: autoDraw = False
+170.5921 	EXP 	image_stim: autoDraw = False
+170.5921 	EXP 	text_stim: autoDraw = False
+170.5921 	EXP 	button_left: autoDraw = False
+170.5921 	EXP 	trial_label_left: autoDraw = False
+170.5921 	EXP 	button_right: autoDraw = False
+170.5921 	EXP 	trial_label_right: autoDraw = False
+170.5921 	EXP 	feedback_msg: text = '+'
+170.5921 	EXP 	feedback_msg: autoDraw = True
+171.5766 	EXP 	New trial (rep=0, index=6): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Vegetables', 'CorrAns': 'a'}
+171.5920 	EXP 	feedback_msg: autoDraw = False
+171.5920 	EXP 	feedback_msg: autoDraw = False
+171.5920 	EXP 	image_stim: image = 'stimuli/blank.png'
+171.5920 	EXP 	text_stim: height = 0.05
+171.5920 	EXP 	text_stim: height = 0.05
+171.5920 	EXP 	text_stim: height = 0.05
+171.5920 	EXP 	text_stim: text = 'Vegetables'
+171.5920 	EXP 	trial_label_left: text = 'A = \nHealthy or \nPositive'
+171.5920 	EXP 	trial_label_right: text = 'L = \nUnhealthy or \nNegative'
+171.5920 	EXP 	fixation: autoDraw = True
+172.0924 	EXP 	fixation: autoDraw = False
+172.0924 	EXP 	image_stim: autoDraw = True
+172.0924 	EXP 	text_stim: autoDraw = True
+172.0924 	EXP 	button_left: autoDraw = True
+172.0924 	EXP 	trial_label_left: autoDraw = True
+172.0924 	EXP 	button_right: autoDraw = True
+172.0924 	EXP 	trial_label_right: autoDraw = True
+172.5816 	DATA 	Keypress: a
+172.6085 	EXP 	fixation: autoDraw = False
+172.6085 	EXP 	image_stim: autoDraw = False
+172.6085 	EXP 	text_stim: autoDraw = False
+172.6085 	EXP 	button_left: autoDraw = False
+172.6085 	EXP 	trial_label_left: autoDraw = False
+172.6085 	EXP 	button_right: autoDraw = False
+172.6085 	EXP 	trial_label_right: autoDraw = False
+172.6085 	EXP 	feedback_msg: text = '+'
+172.6085 	EXP 	feedback_msg: autoDraw = True
+173.5932 	EXP 	New trial (rep=0, index=7): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Evil', 'CorrAns': 'l'}
+173.6084 	EXP 	feedback_msg: autoDraw = False
+173.6084 	EXP 	feedback_msg: autoDraw = False
+173.6084 	EXP 	image_stim: image = 'stimuli/blank.png'
+173.6084 	EXP 	text_stim: height = 0.05
+173.6084 	EXP 	text_stim: height = 0.05
+173.6084 	EXP 	text_stim: height = 0.05
+173.6084 	EXP 	text_stim: text = 'Evil'
+173.6084 	EXP 	trial_label_left: text = 'A = \nHealthy or \nPositive'
+173.6084 	EXP 	trial_label_right: text = 'L = \nUnhealthy or \nNegative'
+173.6084 	EXP 	fixation: autoDraw = True
+174.1088 	EXP 	fixation: autoDraw = False
+174.1088 	EXP 	image_stim: autoDraw = True
+174.1088 	EXP 	text_stim: autoDraw = True
+174.1088 	EXP 	button_left: autoDraw = True
+174.1088 	EXP 	trial_label_left: autoDraw = True
+174.1088 	EXP 	button_right: autoDraw = True
+174.1088 	EXP 	trial_label_right: autoDraw = True
+174.6772 	DATA 	Keypress: l
+174.6919 	EXP 	fixation: autoDraw = False
+174.6919 	EXP 	image_stim: autoDraw = False
+174.6919 	EXP 	text_stim: autoDraw = False
+174.6919 	EXP 	button_left: autoDraw = False
+174.6919 	EXP 	trial_label_left: autoDraw = False
+174.6919 	EXP 	button_right: autoDraw = False
+174.6919 	EXP 	trial_label_right: autoDraw = False
+174.6919 	EXP 	feedback_msg: text = '+'
+174.6919 	EXP 	feedback_msg: autoDraw = True
+175.6764 	EXP 	New trial (rep=0, index=8): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Happy', 'CorrAns': 'a'}
+175.6918 	EXP 	feedback_msg: autoDraw = False
+175.6918 	EXP 	feedback_msg: autoDraw = False
+175.6918 	EXP 	image_stim: image = 'stimuli/blank.png'
+175.6918 	EXP 	text_stim: height = 0.05
+175.6918 	EXP 	text_stim: height = 0.05
+175.6918 	EXP 	text_stim: height = 0.05
+175.6918 	EXP 	text_stim: text = 'Happy'
+175.6918 	EXP 	trial_label_left: text = 'A = \nHealthy or \nPositive'
+175.6918 	EXP 	trial_label_right: text = 'L = \nUnhealthy or \nNegative'
+175.6918 	EXP 	fixation: autoDraw = True
+176.1918 	EXP 	fixation: autoDraw = False
+176.1918 	EXP 	image_stim: autoDraw = True
+176.1918 	EXP 	text_stim: autoDraw = True
+176.1918 	EXP 	button_left: autoDraw = True
+176.1918 	EXP 	trial_label_left: autoDraw = True
+176.1918 	EXP 	button_right: autoDraw = True
+176.1918 	EXP 	trial_label_right: autoDraw = True
+176.8106 	DATA 	Keypress: a
+176.8248 	EXP 	fixation: autoDraw = False
+176.8248 	EXP 	image_stim: autoDraw = False
+176.8248 	EXP 	text_stim: autoDraw = False
+176.8248 	EXP 	button_left: autoDraw = False
+176.8248 	EXP 	trial_label_left: autoDraw = False
+176.8248 	EXP 	button_right: autoDraw = False
+176.8248 	EXP 	trial_label_right: autoDraw = False
+176.8248 	EXP 	feedback_msg: text = '+'
+176.8248 	EXP 	feedback_msg: autoDraw = True
+177.8104 	EXP 	New trial (rep=0, index=9): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Salad', 'CorrAns': 'a'}
+177.8251 	EXP 	feedback_msg: autoDraw = False
+177.8251 	EXP 	feedback_msg: autoDraw = False
+177.8251 	EXP 	image_stim: image = 'stimuli/blank.png'
+177.8251 	EXP 	text_stim: height = 0.05
+177.8251 	EXP 	text_stim: height = 0.05
+177.8251 	EXP 	text_stim: height = 0.05
+177.8251 	EXP 	text_stim: text = 'Salad'
+177.8251 	EXP 	trial_label_left: text = 'A = \nHealthy or \nPositive'
+177.8251 	EXP 	trial_label_right: text = 'L = \nUnhealthy or \nNegative'
+177.8251 	EXP 	fixation: autoDraw = True
+178.3252 	EXP 	fixation: autoDraw = False
+178.3252 	EXP 	image_stim: autoDraw = True
+178.3252 	EXP 	text_stim: autoDraw = True
+178.3252 	EXP 	button_left: autoDraw = True
+178.3252 	EXP 	trial_label_left: autoDraw = True
+178.3252 	EXP 	button_right: autoDraw = True
+178.3252 	EXP 	trial_label_right: autoDraw = True
+178.8435 	DATA 	Keypress: a
+178.8579 	EXP 	fixation: autoDraw = False
+178.8579 	EXP 	image_stim: autoDraw = False
+178.8579 	EXP 	text_stim: autoDraw = False
+178.8579 	EXP 	button_left: autoDraw = False
+178.8579 	EXP 	trial_label_left: autoDraw = False
+178.8579 	EXP 	button_right: autoDraw = False
+178.8579 	EXP 	trial_label_right: autoDraw = False
+178.8579 	EXP 	feedback_msg: text = '+'
+178.8579 	EXP 	feedback_msg: autoDraw = True
+179.8427 	EXP 	New trial (rep=0, index=10): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Fruit Salad', 'CorrAns': 'a'}
+179.8581 	EXP 	feedback_msg: autoDraw = False
+179.8581 	EXP 	feedback_msg: autoDraw = False
+179.8581 	EXP 	image_stim: image = 'stimuli/blank.png'
+179.8581 	EXP 	text_stim: height = 0.05
+179.8581 	EXP 	text_stim: height = 0.05
+179.8581 	EXP 	text_stim: height = 0.05
+179.8581 	EXP 	text_stim: text = 'Fruit Salad'
+179.8581 	EXP 	trial_label_left: text = 'A = \nHealthy or \nPositive'
+179.8581 	EXP 	trial_label_right: text = 'L = \nUnhealthy or \nNegative'
+179.8581 	EXP 	fixation: autoDraw = True
+180.3585 	EXP 	fixation: autoDraw = False
+180.3585 	EXP 	image_stim: autoDraw = True
+180.3585 	EXP 	text_stim: autoDraw = True
+180.3585 	EXP 	button_left: autoDraw = True
+180.3585 	EXP 	trial_label_left: autoDraw = True
+180.3585 	EXP 	button_right: autoDraw = True
+180.3585 	EXP 	trial_label_right: autoDraw = True
+180.8311 	DATA 	Keypress: a
+180.8580 	EXP 	fixation: autoDraw = False
+180.8580 	EXP 	image_stim: autoDraw = False
+180.8580 	EXP 	text_stim: autoDraw = False
+180.8580 	EXP 	button_left: autoDraw = False
+180.8580 	EXP 	trial_label_left: autoDraw = False
+180.8580 	EXP 	button_right: autoDraw = False
+180.8580 	EXP 	trial_label_right: autoDraw = False
+180.8580 	EXP 	feedback_msg: text = '+'
+180.8580 	EXP 	feedback_msg: autoDraw = True
+181.8429 	EXP 	New trial (rep=0, index=11): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Burger', 'CorrAns': 'l'}
+181.8580 	EXP 	feedback_msg: autoDraw = False
+181.8580 	EXP 	feedback_msg: autoDraw = False
+181.8580 	EXP 	image_stim: image = 'stimuli/blank.png'
+181.8580 	EXP 	text_stim: height = 0.05
+181.8580 	EXP 	text_stim: height = 0.05
+181.8580 	EXP 	text_stim: height = 0.05
+181.8580 	EXP 	text_stim: text = 'Burger'
+181.8580 	EXP 	trial_label_left: text = 'A = \nHealthy or \nPositive'
+181.8580 	EXP 	trial_label_right: text = 'L = \nUnhealthy or \nNegative'
+181.8580 	EXP 	fixation: autoDraw = True
+182.3581 	EXP 	fixation: autoDraw = False
+182.3581 	EXP 	image_stim: autoDraw = True
+182.3581 	EXP 	text_stim: autoDraw = True
+182.3581 	EXP 	button_left: autoDraw = True
+182.3581 	EXP 	trial_label_left: autoDraw = True
+182.3581 	EXP 	button_right: autoDraw = True
+182.3581 	EXP 	trial_label_right: autoDraw = True
+183.0098 	DATA 	Keypress: l
+183.0244 	EXP 	fixation: autoDraw = False
+183.0244 	EXP 	image_stim: autoDraw = False
+183.0244 	EXP 	text_stim: autoDraw = False
+183.0244 	EXP 	button_left: autoDraw = False
+183.0244 	EXP 	trial_label_left: autoDraw = False
+183.0244 	EXP 	button_right: autoDraw = False
+183.0244 	EXP 	trial_label_right: autoDraw = False
+183.0244 	EXP 	feedback_msg: text = '+'
+183.0244 	EXP 	feedback_msg: autoDraw = True
+184.0095 	EXP 	New trial (rep=0, index=12): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Pizza', 'CorrAns': 'l'}
+184.0244 	EXP 	feedback_msg: autoDraw = False
+184.0244 	EXP 	feedback_msg: autoDraw = False
+184.0244 	EXP 	image_stim: image = 'stimuli/blank.png'
+184.0244 	EXP 	text_stim: height = 0.05
+184.0244 	EXP 	text_stim: height = 0.05
+184.0244 	EXP 	text_stim: height = 0.05
+184.0244 	EXP 	text_stim: text = 'Pizza'
+184.0244 	EXP 	trial_label_left: text = 'A = \nHealthy or \nPositive'
+184.0244 	EXP 	trial_label_right: text = 'L = \nUnhealthy or \nNegative'
+184.0244 	EXP 	fixation: autoDraw = True
+184.5246 	EXP 	fixation: autoDraw = False
+184.5246 	EXP 	image_stim: autoDraw = True
+184.5246 	EXP 	text_stim: autoDraw = True
+184.5246 	EXP 	button_left: autoDraw = True
+184.5246 	EXP 	trial_label_left: autoDraw = True
+184.5246 	EXP 	button_right: autoDraw = True
+184.5246 	EXP 	trial_label_right: autoDraw = True
+185.1933 	DATA 	Keypress: l
+185.2077 	EXP 	fixation: autoDraw = False
+185.2077 	EXP 	image_stim: autoDraw = False
+185.2077 	EXP 	text_stim: autoDraw = False
+185.2077 	EXP 	button_left: autoDraw = False
+185.2077 	EXP 	trial_label_left: autoDraw = False
+185.2077 	EXP 	button_right: autoDraw = False
+185.2077 	EXP 	trial_label_right: autoDraw = False
+185.2077 	EXP 	feedback_msg: text = '+'
+185.2077 	EXP 	feedback_msg: autoDraw = True
+186.1929 	EXP 	New trial (rep=0, index=13): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Fruit Juice', 'CorrAns': 'a'}
+186.2077 	EXP 	feedback_msg: autoDraw = False
+186.2077 	EXP 	feedback_msg: autoDraw = False
+186.2077 	EXP 	image_stim: image = 'stimuli/blank.png'
+186.2077 	EXP 	text_stim: height = 0.05
+186.2077 	EXP 	text_stim: height = 0.05
+186.2077 	EXP 	text_stim: height = 0.05
+186.2077 	EXP 	text_stim: text = 'Fruit Juice'
+186.2077 	EXP 	trial_label_left: text = 'A = \nHealthy or \nPositive'
+186.2077 	EXP 	trial_label_right: text = 'L = \nUnhealthy or \nNegative'
+186.2077 	EXP 	fixation: autoDraw = True
+186.7081 	EXP 	fixation: autoDraw = False
+186.7081 	EXP 	image_stim: autoDraw = True
+186.7081 	EXP 	text_stim: autoDraw = True
+186.7081 	EXP 	button_left: autoDraw = True
+186.7081 	EXP 	trial_label_left: autoDraw = True
+186.7081 	EXP 	button_right: autoDraw = True
+186.7081 	EXP 	trial_label_right: autoDraw = True
+187.3302 	DATA 	Keypress: a
+187.3578 	EXP 	fixation: autoDraw = False
+187.3578 	EXP 	image_stim: autoDraw = False
+187.3578 	EXP 	text_stim: autoDraw = False
+187.3578 	EXP 	button_left: autoDraw = False
+187.3578 	EXP 	trial_label_left: autoDraw = False
+187.3578 	EXP 	button_right: autoDraw = False
+187.3578 	EXP 	trial_label_right: autoDraw = False
+187.3578 	EXP 	feedback_msg: text = '+'
+187.3578 	EXP 	feedback_msg: autoDraw = True
+188.3426 	EXP 	New trial (rep=0, index=14): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Pleasure', 'CorrAns': 'a'}
+188.3576 	EXP 	feedback_msg: autoDraw = False
+188.3576 	EXP 	feedback_msg: autoDraw = False
+188.3576 	EXP 	image_stim: image = 'stimuli/blank.png'
+188.3576 	EXP 	text_stim: height = 0.05
+188.3576 	EXP 	text_stim: height = 0.05
+188.3576 	EXP 	text_stim: height = 0.05
+188.3576 	EXP 	text_stim: text = 'Pleasure'
+188.3576 	EXP 	trial_label_left: text = 'A = \nHealthy or \nPositive'
+188.3576 	EXP 	trial_label_right: text = 'L = \nUnhealthy or \nNegative'
+188.3576 	EXP 	fixation: autoDraw = True
+188.8580 	EXP 	fixation: autoDraw = False
+188.8580 	EXP 	image_stim: autoDraw = True
+188.8580 	EXP 	text_stim: autoDraw = True
+188.8580 	EXP 	button_left: autoDraw = True
+188.8580 	EXP 	trial_label_left: autoDraw = True
+188.8580 	EXP 	button_right: autoDraw = True
+188.8580 	EXP 	trial_label_right: autoDraw = True
+189.5598 	DATA 	Keypress: a
+189.5739 	EXP 	fixation: autoDraw = False
+189.5739 	EXP 	image_stim: autoDraw = False
+189.5739 	EXP 	text_stim: autoDraw = False
+189.5739 	EXP 	button_left: autoDraw = False
+189.5739 	EXP 	trial_label_left: autoDraw = False
+189.5739 	EXP 	button_right: autoDraw = False
+189.5739 	EXP 	trial_label_right: autoDraw = False
+189.5739 	EXP 	feedback_msg: text = '+'
+189.5739 	EXP 	feedback_msg: autoDraw = True
+190.5589 	EXP 	New trial (rep=0, index=15): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Nasty', 'CorrAns': 'l'}
+190.5737 	EXP 	feedback_msg: autoDraw = False
+190.5737 	EXP 	feedback_msg: autoDraw = False
+190.5737 	EXP 	image_stim: image = 'stimuli/blank.png'
+190.5737 	EXP 	text_stim: height = 0.05
+190.5737 	EXP 	text_stim: height = 0.05
+190.5737 	EXP 	text_stim: height = 0.05
+190.5737 	EXP 	text_stim: text = 'Nasty'
+190.5737 	EXP 	trial_label_left: text = 'A = \nHealthy or \nPositive'
+190.5737 	EXP 	trial_label_right: text = 'L = \nUnhealthy or \nNegative'
+190.5737 	EXP 	fixation: autoDraw = True
+191.0737 	EXP 	fixation: autoDraw = False
+191.0737 	EXP 	image_stim: autoDraw = True
+191.0737 	EXP 	text_stim: autoDraw = True
+191.0737 	EXP 	button_left: autoDraw = True
+191.0737 	EXP 	trial_label_left: autoDraw = True
+191.0737 	EXP 	button_right: autoDraw = True
+191.0737 	EXP 	trial_label_right: autoDraw = True
+191.9265 	DATA 	Keypress: l
+191.9406 	EXP 	fixation: autoDraw = False
+191.9406 	EXP 	image_stim: autoDraw = False
+191.9406 	EXP 	text_stim: autoDraw = False
+191.9406 	EXP 	button_left: autoDraw = False
+191.9406 	EXP 	trial_label_left: autoDraw = False
+191.9406 	EXP 	button_right: autoDraw = False
+191.9406 	EXP 	trial_label_right: autoDraw = False
+191.9406 	EXP 	feedback_msg: text = '+'
+191.9406 	EXP 	feedback_msg: autoDraw = True
+192.9254 	EXP 	New trial (rep=0, index=16): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Bad', 'CorrAns': 'l'}
+192.9406 	EXP 	feedback_msg: autoDraw = False
+192.9406 	EXP 	feedback_msg: autoDraw = False
+192.9406 	EXP 	image_stim: image = 'stimuli/blank.png'
+192.9406 	EXP 	text_stim: height = 0.05
+192.9406 	EXP 	text_stim: height = 0.05
+192.9406 	EXP 	text_stim: height = 0.05
+192.9406 	EXP 	text_stim: text = 'Bad'
+192.9406 	EXP 	trial_label_left: text = 'A = \nHealthy or \nPositive'
+192.9406 	EXP 	trial_label_right: text = 'L = \nUnhealthy or \nNegative'
+192.9406 	EXP 	fixation: autoDraw = True
+193.4410 	EXP 	fixation: autoDraw = False
+193.4410 	EXP 	image_stim: autoDraw = True
+193.4410 	EXP 	text_stim: autoDraw = True
+193.4410 	EXP 	button_left: autoDraw = True
+193.4410 	EXP 	trial_label_left: autoDraw = True
+193.4410 	EXP 	button_right: autoDraw = True
+193.4410 	EXP 	trial_label_right: autoDraw = True
+194.0264 	DATA 	Keypress: l
+194.0407 	EXP 	fixation: autoDraw = False
+194.0407 	EXP 	image_stim: autoDraw = False
+194.0407 	EXP 	text_stim: autoDraw = False
+194.0407 	EXP 	button_left: autoDraw = False
+194.0407 	EXP 	trial_label_left: autoDraw = False
+194.0407 	EXP 	button_right: autoDraw = False
+194.0407 	EXP 	trial_label_right: autoDraw = False
+194.0407 	EXP 	feedback_msg: text = '+'
+194.0407 	EXP 	feedback_msg: autoDraw = True
+195.0256 	EXP 	New trial (rep=0, index=17): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Agony', 'CorrAns': 'l'}
+195.0404 	EXP 	feedback_msg: autoDraw = False
+195.0404 	EXP 	feedback_msg: autoDraw = False
+195.0404 	EXP 	image_stim: image = 'stimuli/blank.png'
+195.0404 	EXP 	text_stim: height = 0.05
+195.0404 	EXP 	text_stim: height = 0.05
+195.0404 	EXP 	text_stim: height = 0.05
+195.0404 	EXP 	text_stim: text = 'Agony'
+195.0404 	EXP 	trial_label_left: text = 'A = \nHealthy or \nPositive'
+195.0404 	EXP 	trial_label_right: text = 'L = \nUnhealthy or \nNegative'
+195.0404 	EXP 	fixation: autoDraw = True
+195.5408 	EXP 	fixation: autoDraw = False
+195.5408 	EXP 	image_stim: autoDraw = True
+195.5408 	EXP 	text_stim: autoDraw = True
+195.5408 	EXP 	button_left: autoDraw = True
+195.5408 	EXP 	trial_label_left: autoDraw = True
+195.5408 	EXP 	button_right: autoDraw = True
+195.5408 	EXP 	trial_label_right: autoDraw = True
+196.0254 	DATA 	Keypress: a
+196.0405 	EXP 	fixation: autoDraw = False
+196.0405 	EXP 	image_stim: autoDraw = False
+196.0405 	EXP 	text_stim: autoDraw = False
+196.0405 	EXP 	button_left: autoDraw = False
+196.0405 	EXP 	trial_label_left: autoDraw = False
+196.0405 	EXP 	button_right: autoDraw = False
+196.0405 	EXP 	trial_label_right: autoDraw = False
+196.0405 	EXP 	feedback_msg: height = 0.1
+196.0405 	EXP 	feedback_msg: height = 0.1
+196.0405 	EXP 	feedback_msg: height = 0.1
+196.0405 	EXP 	feedback_msg: text = 'oops'
+196.0405 	EXP 	feedback_msg: autoDraw = True
+197.0264 	EXP 	New trial (rep=0, index=18): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Good', 'CorrAns': 'a'}
+197.0405 	EXP 	feedback_msg: autoDraw = False
+197.0405 	EXP 	feedback_msg: autoDraw = False
+197.0405 	EXP 	image_stim: image = 'stimuli/blank.png'
+197.0405 	EXP 	text_stim: height = 0.05
+197.0405 	EXP 	text_stim: height = 0.05
+197.0405 	EXP 	text_stim: height = 0.05
+197.0405 	EXP 	text_stim: text = 'Good'
+197.0405 	EXP 	trial_label_left: text = 'A = \nHealthy or \nPositive'
+197.0405 	EXP 	trial_label_right: text = 'L = \nUnhealthy or \nNegative'
+197.0405 	EXP 	fixation: autoDraw = True
+197.5407 	EXP 	fixation: autoDraw = False
+197.5407 	EXP 	image_stim: autoDraw = True
+197.5407 	EXP 	text_stim: autoDraw = True
+197.5407 	EXP 	button_left: autoDraw = True
+197.5407 	EXP 	trial_label_left: autoDraw = True
+197.5407 	EXP 	button_right: autoDraw = True
+197.5407 	EXP 	trial_label_right: autoDraw = True
+198.1426 	DATA 	Keypress: a
+198.1570 	EXP 	fixation: autoDraw = False
+198.1570 	EXP 	image_stim: autoDraw = False
+198.1570 	EXP 	text_stim: autoDraw = False
+198.1570 	EXP 	button_left: autoDraw = False
+198.1570 	EXP 	trial_label_left: autoDraw = False
+198.1570 	EXP 	button_right: autoDraw = False
+198.1570 	EXP 	trial_label_right: autoDraw = False
+198.1570 	EXP 	feedback_msg: height = 0.1
+198.1570 	EXP 	feedback_msg: height = 0.1
+198.1570 	EXP 	feedback_msg: height = 0.1
+198.1570 	EXP 	feedback_msg: text = '+'
+198.1570 	EXP 	feedback_msg: autoDraw = True
+199.1415 	EXP 	New trial (rep=0, index=19): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Soft Drinks', 'CorrAns': 'l'}
+199.1569 	EXP 	feedback_msg: autoDraw = False
+199.1569 	EXP 	feedback_msg: autoDraw = False
+199.1569 	EXP 	image_stim: image = 'stimuli/blank.png'
+199.1569 	EXP 	text_stim: height = 0.05
+199.1569 	EXP 	text_stim: height = 0.05
+199.1569 	EXP 	text_stim: height = 0.05
+199.1569 	EXP 	text_stim: text = 'Soft Drinks'
+199.1569 	EXP 	trial_label_left: text = 'A = \nHealthy or \nPositive'
+199.1569 	EXP 	trial_label_right: text = 'L = \nUnhealthy or \nNegative'
+199.1569 	EXP 	fixation: autoDraw = True
+199.6570 	EXP 	fixation: autoDraw = False
+199.6570 	EXP 	image_stim: autoDraw = True
+199.6570 	EXP 	text_stim: autoDraw = True
+199.6570 	EXP 	button_left: autoDraw = True
+199.6570 	EXP 	trial_label_left: autoDraw = True
+199.6570 	EXP 	button_right: autoDraw = True
+199.6570 	EXP 	trial_label_right: autoDraw = True
+200.5753 	DATA 	Keypress: l
+200.5900 	EXP 	fixation: autoDraw = False
+200.5900 	EXP 	image_stim: autoDraw = False
+200.5900 	EXP 	text_stim: autoDraw = False
+200.5900 	EXP 	button_left: autoDraw = False
+200.5900 	EXP 	trial_label_left: autoDraw = False
+200.5900 	EXP 	button_right: autoDraw = False
+200.5900 	EXP 	trial_label_right: autoDraw = False
+200.5900 	EXP 	feedback_msg: text = '+'
+200.5900 	EXP 	feedback_msg: autoDraw = True
+201.5748 	EXP 	New trial (rep=0, index=3): {'conds_file': 'incong_train.xlsx', 'label_left': 'A = \nUnhealthy', 'label_right': 'L = \nHealthy'}
+201.5988 	EXP 	feedback_msg: autoDraw = False
+201.5988 	EXP 	feedback_msg: autoDraw = False
+201.5988 	EXP 	ready_label_L: height = 0.05
+201.5988 	EXP 	ready_label_L: height = 0.05
+201.5988 	EXP 	ready_label_L: height = 0.05
+201.5988 	EXP 	ready_label_L: text = 'A = \nUnhealthy'
+201.5988 	EXP 	ready_label_R: height = 0.05
+201.5988 	EXP 	ready_label_R: height = 0.05
+201.5988 	EXP 	ready_label_R: height = 0.05
+201.5988 	EXP 	ready_label_R: text = 'L = \nHealthy'
+201.5988 	EXP 	main_ready_msg: autoDraw = True
+201.5988 	EXP 	button_L: autoDraw = True
+201.5988 	EXP 	ready_label_L: autoDraw = True
+201.5988 	EXP 	button_R: autoDraw = True
+201.5988 	EXP 	ready_label_R: autoDraw = True
+202.8239 	DATA 	Keypress: space
+202.8417 	EXP 	Imported incong_train.xlsx as conditions, 10 conditions, 3 params
+202.8428 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+202.8433 	EXP 	New trial (rep=0, index=0): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Fruit Juice', 'CorrAns': 'l'}
+202.8648 	EXP 	main_ready_msg: autoDraw = False
+202.8648 	EXP 	button_L: autoDraw = False
+202.8648 	EXP 	ready_label_L: autoDraw = False
+202.8648 	EXP 	button_R: autoDraw = False
+202.8648 	EXP 	ready_label_R: autoDraw = False
+202.8648 	EXP 	image_stim: image = 'stimuli/blank.png'
+202.8648 	EXP 	text_stim: height = 0.05
+202.8648 	EXP 	text_stim: height = 0.05
+202.8648 	EXP 	text_stim: height = 0.05
+202.8648 	EXP 	text_stim: text = 'Fruit Juice'
+202.8648 	EXP 	trial_label_left: height = 0.05
+202.8648 	EXP 	trial_label_left: height = 0.05
+202.8648 	EXP 	trial_label_left: height = 0.05
+202.8648 	EXP 	trial_label_left: text = 'A = \nUnhealthy'
+202.8648 	EXP 	trial_label_right: height = 0.05
+202.8648 	EXP 	trial_label_right: height = 0.05
+202.8648 	EXP 	trial_label_right: height = 0.05
+202.8648 	EXP 	trial_label_right: text = 'L = \nHealthy'
+202.8648 	EXP 	fixation: autoDraw = True
+203.3403 	EXP 	fixation: autoDraw = False
+203.3403 	EXP 	image_stim: autoDraw = True
+203.3403 	EXP 	text_stim: autoDraw = True
+203.3403 	EXP 	button_left: autoDraw = True
+203.3403 	EXP 	trial_label_left: autoDraw = True
+203.3403 	EXP 	button_right: autoDraw = True
+203.3403 	EXP 	trial_label_right: autoDraw = True
+203.9130 	DATA 	Keypress: a
+203.9397 	EXP 	fixation: autoDraw = False
+203.9397 	EXP 	image_stim: autoDraw = False
+203.9397 	EXP 	text_stim: autoDraw = False
+203.9397 	EXP 	button_left: autoDraw = False
+203.9397 	EXP 	trial_label_left: autoDraw = False
+203.9397 	EXP 	button_right: autoDraw = False
+203.9397 	EXP 	trial_label_right: autoDraw = False
+203.9397 	EXP 	feedback_msg: height = 0.1
+203.9397 	EXP 	feedback_msg: height = 0.1
+203.9397 	EXP 	feedback_msg: height = 0.1
+203.9397 	EXP 	feedback_msg: text = 'oops'
+203.9397 	EXP 	feedback_msg: autoDraw = True
+204.9245 	EXP 	New trial (rep=0, index=1): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Biriyani', 'CorrAns': 'a'}
+204.9399 	EXP 	feedback_msg: autoDraw = False
+204.9399 	EXP 	feedback_msg: autoDraw = False
+204.9399 	EXP 	image_stim: image = 'stimuli/blank.png'
+204.9399 	EXP 	text_stim: height = 0.05
+204.9399 	EXP 	text_stim: height = 0.05
+204.9399 	EXP 	text_stim: height = 0.05
+204.9399 	EXP 	text_stim: text = 'Biriyani'
+204.9399 	EXP 	trial_label_left: text = 'A = \nUnhealthy'
+204.9399 	EXP 	trial_label_right: text = 'L = \nHealthy'
+204.9399 	EXP 	fixation: autoDraw = True
+205.3421 	DATA 	Keypress: a
+205.4398 	EXP 	fixation: autoDraw = False
+205.4398 	EXP 	image_stim: autoDraw = True
+205.4398 	EXP 	text_stim: autoDraw = True
+205.4398 	EXP 	button_left: autoDraw = True
+205.4398 	EXP 	trial_label_left: autoDraw = True
+205.4398 	EXP 	button_right: autoDraw = True
+205.4398 	EXP 	trial_label_right: autoDraw = True
+206.1122 	DATA 	Keypress: a
+206.1397 	EXP 	fixation: autoDraw = False
+206.1397 	EXP 	image_stim: autoDraw = False
+206.1397 	EXP 	text_stim: autoDraw = False
+206.1397 	EXP 	button_left: autoDraw = False
+206.1397 	EXP 	trial_label_left: autoDraw = False
+206.1397 	EXP 	button_right: autoDraw = False
+206.1397 	EXP 	trial_label_right: autoDraw = False
+206.1397 	EXP 	feedback_msg: height = 0.1
+206.1397 	EXP 	feedback_msg: height = 0.1
+206.1397 	EXP 	feedback_msg: height = 0.1
+206.1397 	EXP 	feedback_msg: text = '+'
+206.1397 	EXP 	feedback_msg: autoDraw = True
+207.1242 	EXP 	New trial (rep=0, index=2): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Salad', 'CorrAns': 'l'}
+207.1397 	EXP 	feedback_msg: autoDraw = False
+207.1397 	EXP 	feedback_msg: autoDraw = False
+207.1397 	EXP 	image_stim: image = 'stimuli/blank.png'
+207.1397 	EXP 	text_stim: height = 0.05
+207.1397 	EXP 	text_stim: height = 0.05
+207.1397 	EXP 	text_stim: height = 0.05
+207.1397 	EXP 	text_stim: text = 'Salad'
+207.1397 	EXP 	trial_label_left: text = 'A = \nUnhealthy'
+207.1397 	EXP 	trial_label_right: text = 'L = \nHealthy'
+207.1397 	EXP 	fixation: autoDraw = True
+207.6402 	EXP 	fixation: autoDraw = False
+207.6402 	EXP 	image_stim: autoDraw = True
+207.6402 	EXP 	text_stim: autoDraw = True
+207.6402 	EXP 	button_left: autoDraw = True
+207.6402 	EXP 	trial_label_left: autoDraw = True
+207.6402 	EXP 	button_right: autoDraw = True
+207.6402 	EXP 	trial_label_right: autoDraw = True
+208.1299 	DATA 	Keypress: a
+208.1565 	EXP 	fixation: autoDraw = False
+208.1565 	EXP 	image_stim: autoDraw = False
+208.1565 	EXP 	text_stim: autoDraw = False
+208.1565 	EXP 	button_left: autoDraw = False
+208.1565 	EXP 	trial_label_left: autoDraw = False
+208.1565 	EXP 	button_right: autoDraw = False
+208.1565 	EXP 	trial_label_right: autoDraw = False
+208.1565 	EXP 	feedback_msg: height = 0.1
+208.1565 	EXP 	feedback_msg: height = 0.1
+208.1565 	EXP 	feedback_msg: height = 0.1
+208.1565 	EXP 	feedback_msg: text = 'oops'
+208.1565 	EXP 	feedback_msg: autoDraw = True
+209.1408 	EXP 	New trial (rep=0, index=3): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Soft Drinks', 'CorrAns': 'a'}
+209.1562 	EXP 	feedback_msg: autoDraw = False
+209.1562 	EXP 	feedback_msg: autoDraw = False
+209.1562 	EXP 	image_stim: image = 'stimuli/blank.png'
+209.1562 	EXP 	text_stim: height = 0.05
+209.1562 	EXP 	text_stim: height = 0.05
+209.1562 	EXP 	text_stim: height = 0.05
+209.1562 	EXP 	text_stim: text = 'Soft Drinks'
+209.1562 	EXP 	trial_label_left: text = 'A = \nUnhealthy'
+209.1562 	EXP 	trial_label_right: text = 'L = \nHealthy'
+209.1562 	EXP 	fixation: autoDraw = True
+209.6564 	EXP 	fixation: autoDraw = False
+209.6564 	EXP 	image_stim: autoDraw = True
+209.6564 	EXP 	text_stim: autoDraw = True
+209.6564 	EXP 	button_left: autoDraw = True
+209.6564 	EXP 	trial_label_left: autoDraw = True
+209.6564 	EXP 	button_right: autoDraw = True
+209.6564 	EXP 	trial_label_right: autoDraw = True
+210.8458 	DATA 	Keypress: a
+210.8727 	EXP 	fixation: autoDraw = False
+210.8727 	EXP 	image_stim: autoDraw = False
+210.8727 	EXP 	text_stim: autoDraw = False
+210.8727 	EXP 	button_left: autoDraw = False
+210.8727 	EXP 	trial_label_left: autoDraw = False
+210.8727 	EXP 	button_right: autoDraw = False
+210.8727 	EXP 	trial_label_right: autoDraw = False
+210.8727 	EXP 	feedback_msg: height = 0.1
+210.8727 	EXP 	feedback_msg: height = 0.1
+210.8727 	EXP 	feedback_msg: height = 0.1
+210.8727 	EXP 	feedback_msg: text = '+'
+210.8727 	EXP 	feedback_msg: autoDraw = True
+211.8580 	EXP 	New trial (rep=0, index=4): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Burger', 'CorrAns': 'a'}
+211.8726 	EXP 	feedback_msg: autoDraw = False
+211.8726 	EXP 	feedback_msg: autoDraw = False
+211.8726 	EXP 	image_stim: image = 'stimuli/blank.png'
+211.8726 	EXP 	text_stim: height = 0.05
+211.8726 	EXP 	text_stim: height = 0.05
+211.8726 	EXP 	text_stim: height = 0.05
+211.8726 	EXP 	text_stim: text = 'Burger'
+211.8726 	EXP 	trial_label_left: text = 'A = \nUnhealthy'
+211.8726 	EXP 	trial_label_right: text = 'L = \nHealthy'
+211.8726 	EXP 	fixation: autoDraw = True
+212.3728 	EXP 	fixation: autoDraw = False
+212.3728 	EXP 	image_stim: autoDraw = True
+212.3728 	EXP 	text_stim: autoDraw = True
+212.3728 	EXP 	button_left: autoDraw = True
+212.3728 	EXP 	trial_label_left: autoDraw = True
+212.3728 	EXP 	button_right: autoDraw = True
+212.3728 	EXP 	trial_label_right: autoDraw = True
+213.2582 	DATA 	Keypress: a
+213.2726 	EXP 	fixation: autoDraw = False
+213.2726 	EXP 	image_stim: autoDraw = False
+213.2726 	EXP 	text_stim: autoDraw = False
+213.2726 	EXP 	button_left: autoDraw = False
+213.2726 	EXP 	trial_label_left: autoDraw = False
+213.2726 	EXP 	button_right: autoDraw = False
+213.2726 	EXP 	trial_label_right: autoDraw = False
+213.2726 	EXP 	feedback_msg: text = '+'
+213.2726 	EXP 	feedback_msg: autoDraw = True
+214.2578 	EXP 	New trial (rep=0, index=5): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Yogurt', 'CorrAns': 'l'}
+214.2724 	EXP 	feedback_msg: autoDraw = False
+214.2724 	EXP 	feedback_msg: autoDraw = False
+214.2724 	EXP 	image_stim: image = 'stimuli/blank.png'
+214.2724 	EXP 	text_stim: height = 0.05
+214.2724 	EXP 	text_stim: height = 0.05
+214.2724 	EXP 	text_stim: height = 0.05
+214.2724 	EXP 	text_stim: text = 'Yogurt'
+214.2724 	EXP 	trial_label_left: text = 'A = \nUnhealthy'
+214.2724 	EXP 	trial_label_right: text = 'L = \nHealthy'
+214.2724 	EXP 	fixation: autoDraw = True
+214.7726 	EXP 	fixation: autoDraw = False
+214.7726 	EXP 	image_stim: autoDraw = True
+214.7726 	EXP 	text_stim: autoDraw = True
+214.7726 	EXP 	button_left: autoDraw = True
+214.7726 	EXP 	trial_label_left: autoDraw = True
+214.7726 	EXP 	button_right: autoDraw = True
+214.7726 	EXP 	trial_label_right: autoDraw = True
+215.4076 	DATA 	Keypress: l
+215.4224 	EXP 	fixation: autoDraw = False
+215.4224 	EXP 	image_stim: autoDraw = False
+215.4224 	EXP 	text_stim: autoDraw = False
+215.4224 	EXP 	button_left: autoDraw = False
+215.4224 	EXP 	trial_label_left: autoDraw = False
+215.4224 	EXP 	button_right: autoDraw = False
+215.4224 	EXP 	trial_label_right: autoDraw = False
+215.4224 	EXP 	feedback_msg: text = '+'
+215.4224 	EXP 	feedback_msg: autoDraw = True
+216.4080 	EXP 	New trial (rep=0, index=6): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Fries', 'CorrAns': 'a'}
+216.4227 	EXP 	feedback_msg: autoDraw = False
+216.4227 	EXP 	feedback_msg: autoDraw = False
+216.4227 	EXP 	image_stim: image = 'stimuli/blank.png'
+216.4227 	EXP 	text_stim: height = 0.05
+216.4227 	EXP 	text_stim: height = 0.05
+216.4227 	EXP 	text_stim: height = 0.05
+216.4227 	EXP 	text_stim: text = 'Fries'
+216.4227 	EXP 	trial_label_left: text = 'A = \nUnhealthy'
+216.4227 	EXP 	trial_label_right: text = 'L = \nHealthy'
+216.4227 	EXP 	fixation: autoDraw = True
+216.9224 	EXP 	fixation: autoDraw = False
+216.9224 	EXP 	image_stim: autoDraw = True
+216.9224 	EXP 	text_stim: autoDraw = True
+216.9224 	EXP 	button_left: autoDraw = True
+216.9224 	EXP 	trial_label_left: autoDraw = True
+216.9224 	EXP 	button_right: autoDraw = True
+216.9224 	EXP 	trial_label_right: autoDraw = True
+217.8740 	DATA 	Keypress: a
+217.8892 	EXP 	fixation: autoDraw = False
+217.8892 	EXP 	image_stim: autoDraw = False
+217.8892 	EXP 	text_stim: autoDraw = False
+217.8892 	EXP 	button_left: autoDraw = False
+217.8892 	EXP 	trial_label_left: autoDraw = False
+217.8892 	EXP 	button_right: autoDraw = False
+217.8892 	EXP 	trial_label_right: autoDraw = False
+217.8892 	EXP 	feedback_msg: text = '+'
+217.8892 	EXP 	feedback_msg: autoDraw = True
+218.8737 	EXP 	New trial (rep=0, index=7): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Pizza', 'CorrAns': 'a'}
+218.8889 	EXP 	feedback_msg: autoDraw = False
+218.8889 	EXP 	feedback_msg: autoDraw = False
+218.8889 	EXP 	image_stim: image = 'stimuli/blank.png'
+218.8889 	EXP 	text_stim: height = 0.05
+218.8889 	EXP 	text_stim: height = 0.05
+218.8889 	EXP 	text_stim: height = 0.05
+218.8889 	EXP 	text_stim: text = 'Pizza'
+218.8889 	EXP 	trial_label_left: text = 'A = \nUnhealthy'
+218.8889 	EXP 	trial_label_right: text = 'L = \nHealthy'
+218.8889 	EXP 	fixation: autoDraw = True
+219.3891 	EXP 	fixation: autoDraw = False
+219.3891 	EXP 	image_stim: autoDraw = True
+219.3891 	EXP 	text_stim: autoDraw = True
+219.3891 	EXP 	button_left: autoDraw = True
+219.3891 	EXP 	trial_label_left: autoDraw = True
+219.3891 	EXP 	button_right: autoDraw = True
+219.3891 	EXP 	trial_label_right: autoDraw = True
+219.9408 	DATA 	Keypress: l
+219.9558 	EXP 	fixation: autoDraw = False
+219.9558 	EXP 	image_stim: autoDraw = False
+219.9558 	EXP 	text_stim: autoDraw = False
+219.9558 	EXP 	button_left: autoDraw = False
+219.9558 	EXP 	trial_label_left: autoDraw = False
+219.9558 	EXP 	button_right: autoDraw = False
+219.9558 	EXP 	trial_label_right: autoDraw = False
+219.9558 	EXP 	feedback_msg: height = 0.1
+219.9558 	EXP 	feedback_msg: height = 0.1
+219.9558 	EXP 	feedback_msg: height = 0.1
+219.9558 	EXP 	feedback_msg: text = 'oops'
+219.9558 	EXP 	feedback_msg: autoDraw = True
+220.9402 	EXP 	New trial (rep=0, index=8): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Fruit Salad', 'CorrAns': 'l'}
+220.9554 	EXP 	feedback_msg: autoDraw = False
+220.9554 	EXP 	feedback_msg: autoDraw = False
+220.9554 	EXP 	image_stim: image = 'stimuli/blank.png'
+220.9554 	EXP 	text_stim: height = 0.05
+220.9554 	EXP 	text_stim: height = 0.05
+220.9554 	EXP 	text_stim: height = 0.05
+220.9554 	EXP 	text_stim: text = 'Fruit Salad'
+220.9554 	EXP 	trial_label_left: text = 'A = \nUnhealthy'
+220.9554 	EXP 	trial_label_right: text = 'L = \nHealthy'
+220.9554 	EXP 	fixation: autoDraw = True
+221.4557 	EXP 	fixation: autoDraw = False
+221.4557 	EXP 	image_stim: autoDraw = True
+221.4557 	EXP 	text_stim: autoDraw = True
+221.4557 	EXP 	button_left: autoDraw = True
+221.4557 	EXP 	trial_label_left: autoDraw = True
+221.4557 	EXP 	button_right: autoDraw = True
+221.4557 	EXP 	trial_label_right: autoDraw = True
+222.1077 	DATA 	Keypress: l
+222.1219 	EXP 	fixation: autoDraw = False
+222.1219 	EXP 	image_stim: autoDraw = False
+222.1219 	EXP 	text_stim: autoDraw = False
+222.1219 	EXP 	button_left: autoDraw = False
+222.1219 	EXP 	trial_label_left: autoDraw = False
+222.1219 	EXP 	button_right: autoDraw = False
+222.1219 	EXP 	trial_label_right: autoDraw = False
+222.1219 	EXP 	feedback_msg: height = 0.1
+222.1219 	EXP 	feedback_msg: height = 0.1
+222.1219 	EXP 	feedback_msg: height = 0.1
+222.1219 	EXP 	feedback_msg: text = '+'
+222.1219 	EXP 	feedback_msg: autoDraw = True
+223.1068 	EXP 	New trial (rep=0, index=9): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Vegetables', 'CorrAns': 'l'}
+223.1221 	EXP 	feedback_msg: autoDraw = False
+223.1221 	EXP 	feedback_msg: autoDraw = False
+223.1221 	EXP 	image_stim: image = 'stimuli/blank.png'
+223.1221 	EXP 	text_stim: height = 0.05
+223.1221 	EXP 	text_stim: height = 0.05
+223.1221 	EXP 	text_stim: height = 0.05
+223.1221 	EXP 	text_stim: text = 'Vegetables'
+223.1221 	EXP 	trial_label_left: text = 'A = \nUnhealthy'
+223.1221 	EXP 	trial_label_right: text = 'L = \nHealthy'
+223.1221 	EXP 	fixation: autoDraw = True
+223.6221 	EXP 	fixation: autoDraw = False
+223.6221 	EXP 	image_stim: autoDraw = True
+223.6221 	EXP 	text_stim: autoDraw = True
+223.6221 	EXP 	button_left: autoDraw = True
+223.6221 	EXP 	trial_label_left: autoDraw = True
+223.6221 	EXP 	button_right: autoDraw = True
+223.6221 	EXP 	trial_label_right: autoDraw = True
+224.1620 	DATA 	Keypress: l
+224.1887 	EXP 	fixation: autoDraw = False
+224.1887 	EXP 	image_stim: autoDraw = False
+224.1887 	EXP 	text_stim: autoDraw = False
+224.1887 	EXP 	button_left: autoDraw = False
+224.1887 	EXP 	trial_label_left: autoDraw = False
+224.1887 	EXP 	button_right: autoDraw = False
+224.1887 	EXP 	trial_label_right: autoDraw = False
+224.1887 	EXP 	feedback_msg: text = '+'
+224.1887 	EXP 	feedback_msg: autoDraw = True
+225.1736 	EXP 	New trial (rep=0, index=4): {'conds_file': 'incong_test.xlsx', 'label_left': 'A = \nUnhealthy or \nPositive', 'label_right': 'L = \nHealthy or \nNegative'}
+225.1981 	EXP 	feedback_msg: autoDraw = False
+225.1981 	EXP 	feedback_msg: autoDraw = False
+225.1981 	EXP 	ready_label_L: height = 0.05
+225.1981 	EXP 	ready_label_L: height = 0.05
+225.1981 	EXP 	ready_label_L: height = 0.05
+225.1981 	EXP 	ready_label_L: text = 'A = \nUnhealthy or \nPositive'
+225.1981 	EXP 	ready_label_R: height = 0.05
+225.1981 	EXP 	ready_label_R: height = 0.05
+225.1981 	EXP 	ready_label_R: height = 0.05
+225.1981 	EXP 	ready_label_R: text = 'L = \nHealthy or \nNegative'
+225.1981 	EXP 	main_ready_msg: autoDraw = True
+225.1981 	EXP 	button_L: autoDraw = True
+225.1981 	EXP 	ready_label_L: autoDraw = True
+225.1981 	EXP 	button_R: autoDraw = True
+225.1981 	EXP 	ready_label_R: autoDraw = True
+226.1228 	DATA 	Keypress: space
+226.1432 	EXP 	Imported incong_test.xlsx as conditions, 20 conditions, 3 params
+226.1446 	EXP 	Created sequence: random, trialTypes=20, nReps=1, seed=None
+226.1452 	EXP 	New trial (rep=0, index=0): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Fruit Salad', 'CorrAns': 'l'}
+226.1708 	EXP 	main_ready_msg: autoDraw = False
+226.1708 	EXP 	button_L: autoDraw = False
+226.1708 	EXP 	ready_label_L: autoDraw = False
+226.1708 	EXP 	button_R: autoDraw = False
+226.1708 	EXP 	ready_label_R: autoDraw = False
+226.1708 	EXP 	image_stim: image = 'stimuli/blank.png'
+226.1708 	EXP 	text_stim: height = 0.05
+226.1708 	EXP 	text_stim: height = 0.05
+226.1708 	EXP 	text_stim: height = 0.05
+226.1708 	EXP 	text_stim: text = 'Fruit Salad'
+226.1708 	EXP 	trial_label_left: height = 0.05
+226.1708 	EXP 	trial_label_left: height = 0.05
+226.1708 	EXP 	trial_label_left: height = 0.05
+226.1708 	EXP 	trial_label_left: text = 'A = \nUnhealthy or \nPositive'
+226.1708 	EXP 	trial_label_right: height = 0.05
+226.1708 	EXP 	trial_label_right: height = 0.05
+226.1708 	EXP 	trial_label_right: height = 0.05
+226.1708 	EXP 	trial_label_right: text = 'L = \nHealthy or \nNegative'
+226.1708 	EXP 	fixation: autoDraw = True
+226.6386 	EXP 	fixation: autoDraw = False
+226.6386 	EXP 	image_stim: autoDraw = True
+226.6386 	EXP 	text_stim: autoDraw = True
+226.6386 	EXP 	button_left: autoDraw = True
+226.6386 	EXP 	trial_label_left: autoDraw = True
+226.6386 	EXP 	button_right: autoDraw = True
+226.6386 	EXP 	trial_label_right: autoDraw = True
+228.6735 	DATA 	Keypress: l
+228.6882 	EXP 	fixation: autoDraw = False
+228.6882 	EXP 	image_stim: autoDraw = False
+228.6882 	EXP 	text_stim: autoDraw = False
+228.6882 	EXP 	button_left: autoDraw = False
+228.6882 	EXP 	trial_label_left: autoDraw = False
+228.6882 	EXP 	button_right: autoDraw = False
+228.6882 	EXP 	trial_label_right: autoDraw = False
+228.6882 	EXP 	feedback_msg: text = '+'
+228.6882 	EXP 	feedback_msg: autoDraw = True
+229.6730 	EXP 	New trial (rep=0, index=1): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Bad', 'CorrAns': 'l'}
+229.6880 	EXP 	feedback_msg: autoDraw = False
+229.6880 	EXP 	feedback_msg: autoDraw = False
+229.6880 	EXP 	image_stim: image = 'stimuli/blank.png'
+229.6880 	EXP 	text_stim: height = 0.05
+229.6880 	EXP 	text_stim: height = 0.05
+229.6880 	EXP 	text_stim: height = 0.05
+229.6880 	EXP 	text_stim: text = 'Bad'
+229.6880 	EXP 	trial_label_left: text = 'A = \nUnhealthy or \nPositive'
+229.6880 	EXP 	trial_label_right: text = 'L = \nHealthy or \nNegative'
+229.6880 	EXP 	fixation: autoDraw = True
+230.1883 	EXP 	fixation: autoDraw = False
+230.1883 	EXP 	image_stim: autoDraw = True
+230.1883 	EXP 	text_stim: autoDraw = True
+230.1883 	EXP 	button_left: autoDraw = True
+230.1883 	EXP 	trial_label_left: autoDraw = True
+230.1883 	EXP 	button_right: autoDraw = True
+230.1883 	EXP 	trial_label_right: autoDraw = True
+230.6900 	DATA 	Keypress: a
+230.7050 	EXP 	fixation: autoDraw = False
+230.7050 	EXP 	image_stim: autoDraw = False
+230.7050 	EXP 	text_stim: autoDraw = False
+230.7050 	EXP 	button_left: autoDraw = False
+230.7050 	EXP 	trial_label_left: autoDraw = False
+230.7050 	EXP 	button_right: autoDraw = False
+230.7050 	EXP 	trial_label_right: autoDraw = False
+230.7050 	EXP 	feedback_msg: height = 0.1
+230.7050 	EXP 	feedback_msg: height = 0.1
+230.7050 	EXP 	feedback_msg: height = 0.1
+230.7050 	EXP 	feedback_msg: text = 'oops'
+230.7050 	EXP 	feedback_msg: autoDraw = True
+231.6892 	EXP 	New trial (rep=0, index=2): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Evil', 'CorrAns': 'l'}
+231.7045 	EXP 	feedback_msg: autoDraw = False
+231.7045 	EXP 	feedback_msg: autoDraw = False
+231.7045 	EXP 	image_stim: image = 'stimuli/blank.png'
+231.7045 	EXP 	text_stim: height = 0.05
+231.7045 	EXP 	text_stim: height = 0.05
+231.7045 	EXP 	text_stim: height = 0.05
+231.7045 	EXP 	text_stim: text = 'Evil'
+231.7045 	EXP 	trial_label_left: text = 'A = \nUnhealthy or \nPositive'
+231.7045 	EXP 	trial_label_right: text = 'L = \nHealthy or \nNegative'
+231.7045 	EXP 	fixation: autoDraw = True
+232.2049 	EXP 	fixation: autoDraw = False
+232.2049 	EXP 	image_stim: autoDraw = True
+232.2049 	EXP 	text_stim: autoDraw = True
+232.2049 	EXP 	button_left: autoDraw = True
+232.2049 	EXP 	trial_label_left: autoDraw = True
+232.2049 	EXP 	button_right: autoDraw = True
+232.2049 	EXP 	trial_label_right: autoDraw = True
+234.9443 	DATA 	Keypress: l
+234.9712 	EXP 	fixation: autoDraw = False
+234.9712 	EXP 	image_stim: autoDraw = False
+234.9712 	EXP 	text_stim: autoDraw = False
+234.9712 	EXP 	button_left: autoDraw = False
+234.9712 	EXP 	trial_label_left: autoDraw = False
+234.9712 	EXP 	button_right: autoDraw = False
+234.9712 	EXP 	trial_label_right: autoDraw = False
+234.9712 	EXP 	feedback_msg: height = 0.1
+234.9712 	EXP 	feedback_msg: height = 0.1
+234.9712 	EXP 	feedback_msg: height = 0.1
+234.9712 	EXP 	feedback_msg: text = '+'
+234.9712 	EXP 	feedback_msg: autoDraw = True
+235.9562 	EXP 	New trial (rep=0, index=3): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Joy', 'CorrAns': 'a'}
+235.9711 	EXP 	feedback_msg: autoDraw = False
+235.9711 	EXP 	feedback_msg: autoDraw = False
+235.9711 	EXP 	image_stim: image = 'stimuli/blank.png'
+235.9711 	EXP 	text_stim: height = 0.05
+235.9711 	EXP 	text_stim: height = 0.05
+235.9711 	EXP 	text_stim: height = 0.05
+235.9711 	EXP 	text_stim: text = 'Joy'
+235.9711 	EXP 	trial_label_left: text = 'A = \nUnhealthy or \nPositive'
+235.9711 	EXP 	trial_label_right: text = 'L = \nHealthy or \nNegative'
+235.9711 	EXP 	fixation: autoDraw = True
+236.4715 	EXP 	fixation: autoDraw = False
+236.4715 	EXP 	image_stim: autoDraw = True
+236.4715 	EXP 	text_stim: autoDraw = True
+236.4715 	EXP 	button_left: autoDraw = True
+236.4715 	EXP 	trial_label_left: autoDraw = True
+236.4715 	EXP 	button_right: autoDraw = True
+236.4715 	EXP 	trial_label_right: autoDraw = True
+237.7068 	DATA 	Keypress: a
+237.7212 	EXP 	fixation: autoDraw = False
+237.7212 	EXP 	image_stim: autoDraw = False
+237.7212 	EXP 	text_stim: autoDraw = False
+237.7212 	EXP 	button_left: autoDraw = False
+237.7212 	EXP 	trial_label_left: autoDraw = False
+237.7212 	EXP 	button_right: autoDraw = False
+237.7212 	EXP 	trial_label_right: autoDraw = False
+237.7212 	EXP 	feedback_msg: text = '+'
+237.7212 	EXP 	feedback_msg: autoDraw = True
+238.7059 	EXP 	New trial (rep=0, index=4): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Fries', 'CorrAns': 'a'}
+238.7210 	EXP 	feedback_msg: autoDraw = False
+238.7210 	EXP 	feedback_msg: autoDraw = False
+238.7210 	EXP 	image_stim: image = 'stimuli/blank.png'
+238.7210 	EXP 	text_stim: height = 0.05
+238.7210 	EXP 	text_stim: height = 0.05
+238.7210 	EXP 	text_stim: height = 0.05
+238.7210 	EXP 	text_stim: text = 'Fries'
+238.7210 	EXP 	trial_label_left: text = 'A = \nUnhealthy or \nPositive'
+238.7210 	EXP 	trial_label_right: text = 'L = \nHealthy or \nNegative'
+238.7210 	EXP 	fixation: autoDraw = True
+239.2212 	EXP 	fixation: autoDraw = False
+239.2212 	EXP 	image_stim: autoDraw = True
+239.2212 	EXP 	text_stim: autoDraw = True
+239.2212 	EXP 	button_left: autoDraw = True
+239.2212 	EXP 	trial_label_left: autoDraw = True
+239.2212 	EXP 	button_right: autoDraw = True
+239.2212 	EXP 	trial_label_right: autoDraw = True
+240.3233 	DATA 	Keypress: a
+240.3376 	EXP 	fixation: autoDraw = False
+240.3376 	EXP 	image_stim: autoDraw = False
+240.3376 	EXP 	text_stim: autoDraw = False
+240.3376 	EXP 	button_left: autoDraw = False
+240.3376 	EXP 	trial_label_left: autoDraw = False
+240.3376 	EXP 	button_right: autoDraw = False
+240.3376 	EXP 	trial_label_right: autoDraw = False
+240.3376 	EXP 	feedback_msg: text = '+'
+240.3376 	EXP 	feedback_msg: autoDraw = True
+241.3222 	EXP 	New trial (rep=0, index=5): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Yogurt', 'CorrAns': 'l'}
+241.3375 	EXP 	feedback_msg: autoDraw = False
+241.3375 	EXP 	feedback_msg: autoDraw = False
+241.3375 	EXP 	image_stim: image = 'stimuli/blank.png'
+241.3375 	EXP 	text_stim: height = 0.05
+241.3375 	EXP 	text_stim: height = 0.05
+241.3375 	EXP 	text_stim: height = 0.05
+241.3375 	EXP 	text_stim: text = 'Yogurt'
+241.3375 	EXP 	trial_label_left: text = 'A = \nUnhealthy or \nPositive'
+241.3375 	EXP 	trial_label_right: text = 'L = \nHealthy or \nNegative'
+241.3375 	EXP 	fixation: autoDraw = True
+241.8376 	EXP 	fixation: autoDraw = False
+241.8376 	EXP 	image_stim: autoDraw = True
+241.8376 	EXP 	text_stim: autoDraw = True
+241.8376 	EXP 	button_left: autoDraw = True
+241.8376 	EXP 	trial_label_left: autoDraw = True
+241.8376 	EXP 	button_right: autoDraw = True
+241.8376 	EXP 	trial_label_right: autoDraw = True
+243.0892 	DATA 	Keypress: l
+243.1040 	EXP 	fixation: autoDraw = False
+243.1040 	EXP 	image_stim: autoDraw = False
+243.1040 	EXP 	text_stim: autoDraw = False
+243.1040 	EXP 	button_left: autoDraw = False
+243.1040 	EXP 	trial_label_left: autoDraw = False
+243.1040 	EXP 	button_right: autoDraw = False
+243.1040 	EXP 	trial_label_right: autoDraw = False
+243.1040 	EXP 	feedback_msg: text = '+'
+243.1040 	EXP 	feedback_msg: autoDraw = True
+244.0884 	EXP 	New trial (rep=0, index=6): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Burger', 'CorrAns': 'a'}
+244.1039 	EXP 	feedback_msg: autoDraw = False
+244.1039 	EXP 	feedback_msg: autoDraw = False
+244.1039 	EXP 	image_stim: image = 'stimuli/blank.png'
+244.1039 	EXP 	text_stim: height = 0.05
+244.1039 	EXP 	text_stim: height = 0.05
+244.1039 	EXP 	text_stim: height = 0.05
+244.1039 	EXP 	text_stim: text = 'Burger'
+244.1039 	EXP 	trial_label_left: text = 'A = \nUnhealthy or \nPositive'
+244.1039 	EXP 	trial_label_right: text = 'L = \nHealthy or \nNegative'
+244.1039 	EXP 	fixation: autoDraw = True
+244.6046 	EXP 	fixation: autoDraw = False
+244.6046 	EXP 	image_stim: autoDraw = True
+244.6046 	EXP 	text_stim: autoDraw = True
+244.6046 	EXP 	button_left: autoDraw = True
+244.6046 	EXP 	trial_label_left: autoDraw = True
+244.6046 	EXP 	button_right: autoDraw = True
+244.6046 	EXP 	trial_label_right: autoDraw = True
+245.3226 	DATA 	Keypress: l
+245.3372 	EXP 	fixation: autoDraw = False
+245.3372 	EXP 	image_stim: autoDraw = False
+245.3372 	EXP 	text_stim: autoDraw = False
+245.3372 	EXP 	button_left: autoDraw = False
+245.3372 	EXP 	trial_label_left: autoDraw = False
+245.3372 	EXP 	button_right: autoDraw = False
+245.3372 	EXP 	trial_label_right: autoDraw = False
+245.3372 	EXP 	feedback_msg: height = 0.1
+245.3372 	EXP 	feedback_msg: height = 0.1
+245.3372 	EXP 	feedback_msg: height = 0.1
+245.3372 	EXP 	feedback_msg: text = 'oops'
+245.3372 	EXP 	feedback_msg: autoDraw = True
+246.3222 	EXP 	New trial (rep=0, index=7): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Soft Drinks', 'CorrAns': 'a'}
+246.3369 	EXP 	feedback_msg: autoDraw = False
+246.3369 	EXP 	feedback_msg: autoDraw = False
+246.3369 	EXP 	image_stim: image = 'stimuli/blank.png'
+246.3369 	EXP 	text_stim: height = 0.05
+246.3369 	EXP 	text_stim: height = 0.05
+246.3369 	EXP 	text_stim: height = 0.05
+246.3369 	EXP 	text_stim: text = 'Soft Drinks'
+246.3369 	EXP 	trial_label_left: text = 'A = \nUnhealthy or \nPositive'
+246.3369 	EXP 	trial_label_right: text = 'L = \nHealthy or \nNegative'
+246.3369 	EXP 	fixation: autoDraw = True
+246.8373 	EXP 	fixation: autoDraw = False
+246.8373 	EXP 	image_stim: autoDraw = True
+246.8373 	EXP 	text_stim: autoDraw = True
+246.8373 	EXP 	button_left: autoDraw = True
+246.8373 	EXP 	trial_label_left: autoDraw = True
+246.8373 	EXP 	button_right: autoDraw = True
+246.8373 	EXP 	trial_label_right: autoDraw = True
+247.8560 	DATA 	Keypress: a
+247.8703 	EXP 	fixation: autoDraw = False
+247.8703 	EXP 	image_stim: autoDraw = False
+247.8703 	EXP 	text_stim: autoDraw = False
+247.8703 	EXP 	button_left: autoDraw = False
+247.8703 	EXP 	trial_label_left: autoDraw = False
+247.8703 	EXP 	button_right: autoDraw = False
+247.8703 	EXP 	trial_label_right: autoDraw = False
+247.8703 	EXP 	feedback_msg: height = 0.1
+247.8703 	EXP 	feedback_msg: height = 0.1
+247.8703 	EXP 	feedback_msg: height = 0.1
+247.8703 	EXP 	feedback_msg: text = '+'
+247.8703 	EXP 	feedback_msg: autoDraw = True
+248.8555 	EXP 	New trial (rep=0, index=8): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Biriyani', 'CorrAns': 'a'}
+248.8702 	EXP 	feedback_msg: autoDraw = False
+248.8702 	EXP 	feedback_msg: autoDraw = False
+248.8702 	EXP 	image_stim: image = 'stimuli/blank.png'
+248.8702 	EXP 	text_stim: height = 0.05
+248.8702 	EXP 	text_stim: height = 0.05
+248.8702 	EXP 	text_stim: height = 0.05
+248.8702 	EXP 	text_stim: text = 'Biriyani'
+248.8702 	EXP 	trial_label_left: text = 'A = \nUnhealthy or \nPositive'
+248.8702 	EXP 	trial_label_right: text = 'L = \nHealthy or \nNegative'
+248.8702 	EXP 	fixation: autoDraw = True
+249.3706 	EXP 	fixation: autoDraw = False
+249.3706 	EXP 	image_stim: autoDraw = True
+249.3706 	EXP 	text_stim: autoDraw = True
+249.3706 	EXP 	button_left: autoDraw = True
+249.3706 	EXP 	trial_label_left: autoDraw = True
+249.3706 	EXP 	button_right: autoDraw = True
+249.3706 	EXP 	trial_label_right: autoDraw = True
+250.2906 	DATA 	Keypress: l
+250.3035 	EXP 	fixation: autoDraw = False
+250.3035 	EXP 	image_stim: autoDraw = False
+250.3035 	EXP 	text_stim: autoDraw = False
+250.3035 	EXP 	button_left: autoDraw = False
+250.3035 	EXP 	trial_label_left: autoDraw = False
+250.3035 	EXP 	button_right: autoDraw = False
+250.3035 	EXP 	trial_label_right: autoDraw = False
+250.3035 	EXP 	feedback_msg: height = 0.1
+250.3035 	EXP 	feedback_msg: height = 0.1
+250.3035 	EXP 	feedback_msg: height = 0.1
+250.3035 	EXP 	feedback_msg: text = 'oops'
+250.3035 	EXP 	feedback_msg: autoDraw = True
+251.2882 	EXP 	New trial (rep=0, index=9): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Happy', 'CorrAns': 'a'}
+251.3034 	EXP 	feedback_msg: autoDraw = False
+251.3034 	EXP 	feedback_msg: autoDraw = False
+251.3034 	EXP 	image_stim: image = 'stimuli/blank.png'
+251.3034 	EXP 	text_stim: height = 0.05
+251.3034 	EXP 	text_stim: height = 0.05
+251.3034 	EXP 	text_stim: height = 0.05
+251.3034 	EXP 	text_stim: text = 'Happy'
+251.3034 	EXP 	trial_label_left: text = 'A = \nUnhealthy or \nPositive'
+251.3034 	EXP 	trial_label_right: text = 'L = \nHealthy or \nNegative'
+251.3034 	EXP 	fixation: autoDraw = True
+251.8037 	EXP 	fixation: autoDraw = False
+251.8037 	EXP 	image_stim: autoDraw = True
+251.8037 	EXP 	text_stim: autoDraw = True
+251.8037 	EXP 	button_left: autoDraw = True
+251.8037 	EXP 	trial_label_left: autoDraw = True
+251.8037 	EXP 	button_right: autoDraw = True
+251.8037 	EXP 	trial_label_right: autoDraw = True
+253.0388 	DATA 	Keypress: a
+253.0532 	EXP 	fixation: autoDraw = False
+253.0532 	EXP 	image_stim: autoDraw = False
+253.0532 	EXP 	text_stim: autoDraw = False
+253.0532 	EXP 	button_left: autoDraw = False
+253.0532 	EXP 	trial_label_left: autoDraw = False
+253.0532 	EXP 	button_right: autoDraw = False
+253.0532 	EXP 	trial_label_right: autoDraw = False
+253.0532 	EXP 	feedback_msg: height = 0.1
+253.0532 	EXP 	feedback_msg: height = 0.1
+253.0532 	EXP 	feedback_msg: height = 0.1
+253.0532 	EXP 	feedback_msg: text = '+'
+253.0532 	EXP 	feedback_msg: autoDraw = True
+254.0378 	EXP 	New trial (rep=0, index=10): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Good', 'CorrAns': 'a'}
+254.0533 	EXP 	feedback_msg: autoDraw = False
+254.0533 	EXP 	feedback_msg: autoDraw = False
+254.0533 	EXP 	image_stim: image = 'stimuli/blank.png'
+254.0533 	EXP 	text_stim: height = 0.05
+254.0533 	EXP 	text_stim: height = 0.05
+254.0533 	EXP 	text_stim: height = 0.05
+254.0533 	EXP 	text_stim: text = 'Good'
+254.0533 	EXP 	trial_label_left: text = 'A = \nUnhealthy or \nPositive'
+254.0533 	EXP 	trial_label_right: text = 'L = \nHealthy or \nNegative'
+254.0533 	EXP 	fixation: autoDraw = True
+254.5536 	EXP 	fixation: autoDraw = False
+254.5536 	EXP 	image_stim: autoDraw = True
+254.5536 	EXP 	text_stim: autoDraw = True
+254.5536 	EXP 	button_left: autoDraw = True
+254.5536 	EXP 	trial_label_left: autoDraw = True
+254.5536 	EXP 	button_right: autoDraw = True
+254.5536 	EXP 	trial_label_right: autoDraw = True
+255.3058 	DATA 	Keypress: l
+255.3199 	EXP 	fixation: autoDraw = False
+255.3199 	EXP 	image_stim: autoDraw = False
+255.3199 	EXP 	text_stim: autoDraw = False
+255.3199 	EXP 	button_left: autoDraw = False
+255.3199 	EXP 	trial_label_left: autoDraw = False
+255.3199 	EXP 	button_right: autoDraw = False
+255.3199 	EXP 	trial_label_right: autoDraw = False
+255.3199 	EXP 	feedback_msg: height = 0.1
+255.3199 	EXP 	feedback_msg: height = 0.1
+255.3199 	EXP 	feedback_msg: height = 0.1
+255.3199 	EXP 	feedback_msg: text = 'oops'
+255.3199 	EXP 	feedback_msg: autoDraw = True
+256.3047 	EXP 	New trial (rep=0, index=11): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Agony', 'CorrAns': 'l'}
+256.3198 	EXP 	feedback_msg: autoDraw = False
+256.3198 	EXP 	feedback_msg: autoDraw = False
+256.3198 	EXP 	image_stim: image = 'stimuli/blank.png'
+256.3198 	EXP 	text_stim: height = 0.05
+256.3198 	EXP 	text_stim: height = 0.05
+256.3198 	EXP 	text_stim: height = 0.05
+256.3198 	EXP 	text_stim: text = 'Agony'
+256.3198 	EXP 	trial_label_left: text = 'A = \nUnhealthy or \nPositive'
+256.3198 	EXP 	trial_label_right: text = 'L = \nHealthy or \nNegative'
+256.3198 	EXP 	fixation: autoDraw = True
+256.8203 	EXP 	fixation: autoDraw = False
+256.8203 	EXP 	image_stim: autoDraw = True
+256.8203 	EXP 	text_stim: autoDraw = True
+256.8203 	EXP 	button_left: autoDraw = True
+256.8203 	EXP 	trial_label_left: autoDraw = True
+256.8203 	EXP 	button_right: autoDraw = True
+256.8203 	EXP 	trial_label_right: autoDraw = True
+257.3411 	DATA 	Keypress: a
+257.3699 	EXP 	fixation: autoDraw = False
+257.3699 	EXP 	image_stim: autoDraw = False
+257.3699 	EXP 	text_stim: autoDraw = False
+257.3699 	EXP 	button_left: autoDraw = False
+257.3699 	EXP 	trial_label_left: autoDraw = False
+257.3699 	EXP 	button_right: autoDraw = False
+257.3699 	EXP 	trial_label_right: autoDraw = False
+257.3699 	EXP 	feedback_msg: text = 'oops'
+257.3699 	EXP 	feedback_msg: autoDraw = True
+258.3550 	EXP 	New trial (rep=0, index=12): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Pleasure', 'CorrAns': 'a'}
+258.3698 	EXP 	feedback_msg: autoDraw = False
+258.3698 	EXP 	feedback_msg: autoDraw = False
+258.3698 	EXP 	image_stim: image = 'stimuli/blank.png'
+258.3698 	EXP 	text_stim: height = 0.05
+258.3698 	EXP 	text_stim: height = 0.05
+258.3698 	EXP 	text_stim: height = 0.05
+258.3698 	EXP 	text_stim: text = 'Pleasure'
+258.3698 	EXP 	trial_label_left: text = 'A = \nUnhealthy or \nPositive'
+258.3698 	EXP 	trial_label_right: text = 'L = \nHealthy or \nNegative'
+258.3698 	EXP 	fixation: autoDraw = True
+258.8700 	EXP 	fixation: autoDraw = False
+258.8700 	EXP 	image_stim: autoDraw = True
+258.8700 	EXP 	text_stim: autoDraw = True
+258.8700 	EXP 	button_left: autoDraw = True
+258.8700 	EXP 	trial_label_left: autoDraw = True
+258.8700 	EXP 	button_right: autoDraw = True
+258.8700 	EXP 	trial_label_right: autoDraw = True
+259.9722 	DATA 	Keypress: l
+259.9861 	EXP 	fixation: autoDraw = False
+259.9861 	EXP 	image_stim: autoDraw = False
+259.9861 	EXP 	text_stim: autoDraw = False
+259.9861 	EXP 	button_left: autoDraw = False
+259.9861 	EXP 	trial_label_left: autoDraw = False
+259.9861 	EXP 	button_right: autoDraw = False
+259.9861 	EXP 	trial_label_right: autoDraw = False
+259.9861 	EXP 	feedback_msg: text = 'oops'
+259.9861 	EXP 	feedback_msg: autoDraw = True
+260.9716 	EXP 	New trial (rep=0, index=13): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Nasty', 'CorrAns': 'l'}
+260.9860 	EXP 	feedback_msg: autoDraw = False
+260.9860 	EXP 	feedback_msg: autoDraw = False
+260.9860 	EXP 	image_stim: image = 'stimuli/blank.png'
+260.9860 	EXP 	text_stim: height = 0.05
+260.9860 	EXP 	text_stim: height = 0.05
+260.9860 	EXP 	text_stim: height = 0.05
+260.9860 	EXP 	text_stim: text = 'Nasty'
+260.9860 	EXP 	trial_label_left: text = 'A = \nUnhealthy or \nPositive'
+260.9860 	EXP 	trial_label_right: text = 'L = \nHealthy or \nNegative'
+260.9860 	EXP 	fixation: autoDraw = True
+261.4864 	EXP 	fixation: autoDraw = False
+261.4864 	EXP 	image_stim: autoDraw = True
+261.4864 	EXP 	text_stim: autoDraw = True
+261.4864 	EXP 	button_left: autoDraw = True
+261.4864 	EXP 	trial_label_left: autoDraw = True
+261.4864 	EXP 	button_right: autoDraw = True
+261.4864 	EXP 	trial_label_right: autoDraw = True
+262.0606 	DATA 	Keypress: a
+262.0862 	EXP 	fixation: autoDraw = False
+262.0862 	EXP 	image_stim: autoDraw = False
+262.0862 	EXP 	text_stim: autoDraw = False
+262.0862 	EXP 	button_left: autoDraw = False
+262.0862 	EXP 	trial_label_left: autoDraw = False
+262.0862 	EXP 	button_right: autoDraw = False
+262.0862 	EXP 	trial_label_right: autoDraw = False
+262.0862 	EXP 	feedback_msg: text = 'oops'
+262.0862 	EXP 	feedback_msg: autoDraw = True
+262.7725 	DATA 	Keypress: a
+263.0712 	EXP 	New trial (rep=0, index=14): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Hurt', 'CorrAns': 'l'}
+263.0861 	EXP 	feedback_msg: autoDraw = False
+263.0861 	EXP 	feedback_msg: autoDraw = False
+263.0861 	EXP 	image_stim: image = 'stimuli/blank.png'
+263.0861 	EXP 	text_stim: height = 0.05
+263.0861 	EXP 	text_stim: height = 0.05
+263.0861 	EXP 	text_stim: height = 0.05
+263.0861 	EXP 	text_stim: text = 'Hurt'
+263.0861 	EXP 	trial_label_left: text = 'A = \nUnhealthy or \nPositive'
+263.0861 	EXP 	trial_label_right: text = 'L = \nHealthy or \nNegative'
+263.0861 	EXP 	fixation: autoDraw = True
+263.5862 	EXP 	fixation: autoDraw = False
+263.5862 	EXP 	image_stim: autoDraw = True
+263.5862 	EXP 	text_stim: autoDraw = True
+263.5862 	EXP 	button_left: autoDraw = True
+263.5862 	EXP 	trial_label_left: autoDraw = True
+263.5862 	EXP 	button_right: autoDraw = True
+263.5862 	EXP 	trial_label_right: autoDraw = True
+265.1550 	DATA 	Keypress: l
+265.1696 	EXP 	fixation: autoDraw = False
+265.1696 	EXP 	image_stim: autoDraw = False
+265.1696 	EXP 	text_stim: autoDraw = False
+265.1696 	EXP 	button_left: autoDraw = False
+265.1696 	EXP 	trial_label_left: autoDraw = False
+265.1696 	EXP 	button_right: autoDraw = False
+265.1696 	EXP 	trial_label_right: autoDraw = False
+265.1696 	EXP 	feedback_msg: height = 0.1
+265.1696 	EXP 	feedback_msg: height = 0.1
+265.1696 	EXP 	feedback_msg: height = 0.1
+265.1696 	EXP 	feedback_msg: text = '+'
+265.1696 	EXP 	feedback_msg: autoDraw = True
+266.1541 	EXP 	New trial (rep=0, index=15): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Salad', 'CorrAns': 'l'}
+266.1692 	EXP 	feedback_msg: autoDraw = False
+266.1692 	EXP 	feedback_msg: autoDraw = False
+266.1692 	EXP 	image_stim: image = 'stimuli/blank.png'
+266.1692 	EXP 	text_stim: height = 0.05
+266.1692 	EXP 	text_stim: height = 0.05
+266.1692 	EXP 	text_stim: height = 0.05
+266.1692 	EXP 	text_stim: text = 'Salad'
+266.1692 	EXP 	trial_label_left: text = 'A = \nUnhealthy or \nPositive'
+266.1692 	EXP 	trial_label_right: text = 'L = \nHealthy or \nNegative'
+266.1692 	EXP 	fixation: autoDraw = True
+266.6698 	EXP 	fixation: autoDraw = False
+266.6698 	EXP 	image_stim: autoDraw = True
+266.6698 	EXP 	text_stim: autoDraw = True
+266.6698 	EXP 	button_left: autoDraw = True
+266.6698 	EXP 	trial_label_left: autoDraw = True
+266.6698 	EXP 	button_right: autoDraw = True
+266.6698 	EXP 	trial_label_right: autoDraw = True
+267.3587 	DATA 	Keypress: a
+267.3858 	EXP 	fixation: autoDraw = False
+267.3858 	EXP 	image_stim: autoDraw = False
+267.3858 	EXP 	text_stim: autoDraw = False
+267.3858 	EXP 	button_left: autoDraw = False
+267.3858 	EXP 	trial_label_left: autoDraw = False
+267.3858 	EXP 	button_right: autoDraw = False
+267.3858 	EXP 	trial_label_right: autoDraw = False
+267.3858 	EXP 	feedback_msg: height = 0.1
+267.3858 	EXP 	feedback_msg: height = 0.1
+267.3858 	EXP 	feedback_msg: height = 0.1
+267.3858 	EXP 	feedback_msg: text = 'oops'
+267.3858 	EXP 	feedback_msg: autoDraw = True
+268.3705 	EXP 	New trial (rep=0, index=16): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Fruit Juice', 'CorrAns': 'l'}
+268.3855 	EXP 	feedback_msg: autoDraw = False
+268.3855 	EXP 	feedback_msg: autoDraw = False
+268.3855 	EXP 	image_stim: image = 'stimuli/blank.png'
+268.3855 	EXP 	text_stim: height = 0.05
+268.3855 	EXP 	text_stim: height = 0.05
+268.3855 	EXP 	text_stim: height = 0.05
+268.3855 	EXP 	text_stim: text = 'Fruit Juice'
+268.3855 	EXP 	trial_label_left: text = 'A = \nUnhealthy or \nPositive'
+268.3855 	EXP 	trial_label_right: text = 'L = \nHealthy or \nNegative'
+268.3855 	EXP 	fixation: autoDraw = True
+268.8858 	EXP 	fixation: autoDraw = False
+268.8858 	EXP 	image_stim: autoDraw = True
+268.8858 	EXP 	text_stim: autoDraw = True
+268.8858 	EXP 	button_left: autoDraw = True
+268.8858 	EXP 	trial_label_left: autoDraw = True
+268.8858 	EXP 	button_right: autoDraw = True
+268.8858 	EXP 	trial_label_right: autoDraw = True
+269.5877 	DATA 	Keypress: l
+269.6024 	EXP 	fixation: autoDraw = False
+269.6024 	EXP 	image_stim: autoDraw = False
+269.6024 	EXP 	text_stim: autoDraw = False
+269.6024 	EXP 	button_left: autoDraw = False
+269.6024 	EXP 	trial_label_left: autoDraw = False
+269.6024 	EXP 	button_right: autoDraw = False
+269.6024 	EXP 	trial_label_right: autoDraw = False
+269.6024 	EXP 	feedback_msg: height = 0.1
+269.6024 	EXP 	feedback_msg: height = 0.1
+269.6024 	EXP 	feedback_msg: height = 0.1
+269.6024 	EXP 	feedback_msg: text = '+'
+269.6024 	EXP 	feedback_msg: autoDraw = True
+270.5870 	EXP 	New trial (rep=0, index=17): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Love', 'CorrAns': 'a'}
+270.6025 	EXP 	feedback_msg: autoDraw = False
+270.6025 	EXP 	feedback_msg: autoDraw = False
+270.6025 	EXP 	image_stim: image = 'stimuli/blank.png'
+270.6025 	EXP 	text_stim: height = 0.05
+270.6025 	EXP 	text_stim: height = 0.05
+270.6025 	EXP 	text_stim: height = 0.05
+270.6025 	EXP 	text_stim: text = 'Love'
+270.6025 	EXP 	trial_label_left: text = 'A = \nUnhealthy or \nPositive'
+270.6025 	EXP 	trial_label_right: text = 'L = \nHealthy or \nNegative'
+270.6025 	EXP 	fixation: autoDraw = True
+271.1026 	EXP 	fixation: autoDraw = False
+271.1026 	EXP 	image_stim: autoDraw = True
+271.1026 	EXP 	text_stim: autoDraw = True
+271.1026 	EXP 	button_left: autoDraw = True
+271.1026 	EXP 	trial_label_left: autoDraw = True
+271.1026 	EXP 	button_right: autoDraw = True
+271.1026 	EXP 	trial_label_right: autoDraw = True
+271.7709 	DATA 	Keypress: a
+271.7853 	EXP 	fixation: autoDraw = False
+271.7853 	EXP 	image_stim: autoDraw = False
+271.7853 	EXP 	text_stim: autoDraw = False
+271.7853 	EXP 	button_left: autoDraw = False
+271.7853 	EXP 	trial_label_left: autoDraw = False
+271.7853 	EXP 	button_right: autoDraw = False
+271.7853 	EXP 	trial_label_right: autoDraw = False
+271.7853 	EXP 	feedback_msg: text = '+'
+271.7853 	EXP 	feedback_msg: autoDraw = True
+272.7701 	EXP 	New trial (rep=0, index=18): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Vegetables', 'CorrAns': 'l'}
+272.7856 	EXP 	feedback_msg: autoDraw = False
+272.7856 	EXP 	feedback_msg: autoDraw = False
+272.7856 	EXP 	image_stim: image = 'stimuli/blank.png'
+272.7856 	EXP 	text_stim: height = 0.05
+272.7856 	EXP 	text_stim: height = 0.05
+272.7856 	EXP 	text_stim: height = 0.05
+272.7856 	EXP 	text_stim: text = 'Vegetables'
+272.7856 	EXP 	trial_label_left: text = 'A = \nUnhealthy or \nPositive'
+272.7856 	EXP 	trial_label_right: text = 'L = \nHealthy or \nNegative'
+272.7856 	EXP 	fixation: autoDraw = True
+273.2858 	EXP 	fixation: autoDraw = False
+273.2858 	EXP 	image_stim: autoDraw = True
+273.2858 	EXP 	text_stim: autoDraw = True
+273.2858 	EXP 	button_left: autoDraw = True
+273.2858 	EXP 	trial_label_left: autoDraw = True
+273.2858 	EXP 	button_right: autoDraw = True
+273.2858 	EXP 	trial_label_right: autoDraw = True
+273.9548 	DATA 	Keypress: l
+273.9686 	EXP 	fixation: autoDraw = False
+273.9686 	EXP 	image_stim: autoDraw = False
+273.9686 	EXP 	text_stim: autoDraw = False
+273.9686 	EXP 	button_left: autoDraw = False
+273.9686 	EXP 	trial_label_left: autoDraw = False
+273.9686 	EXP 	button_right: autoDraw = False
+273.9686 	EXP 	trial_label_right: autoDraw = False
+273.9686 	EXP 	feedback_msg: text = '+'
+273.9686 	EXP 	feedback_msg: autoDraw = True
+274.9536 	EXP 	New trial (rep=0, index=19): {'stimImage': 'stimuli/blank.png', 'stimWord': 'Pizza', 'CorrAns': 'a'}
+274.9688 	EXP 	feedback_msg: autoDraw = False
+274.9688 	EXP 	feedback_msg: autoDraw = False
+274.9688 	EXP 	image_stim: image = 'stimuli/blank.png'
+274.9688 	EXP 	text_stim: height = 0.05
+274.9688 	EXP 	text_stim: height = 0.05
+274.9688 	EXP 	text_stim: height = 0.05
+274.9688 	EXP 	text_stim: text = 'Pizza'
+274.9688 	EXP 	trial_label_left: text = 'A = \nUnhealthy or \nPositive'
+274.9688 	EXP 	trial_label_right: text = 'L = \nHealthy or \nNegative'
+274.9688 	EXP 	fixation: autoDraw = True
+275.4690 	EXP 	fixation: autoDraw = False
+275.4690 	EXP 	image_stim: autoDraw = True
+275.4690 	EXP 	text_stim: autoDraw = True
+275.4690 	EXP 	button_left: autoDraw = True
+275.4690 	EXP 	trial_label_left: autoDraw = True
+275.4690 	EXP 	button_right: autoDraw = True
+275.4690 	EXP 	trial_label_right: autoDraw = True
+276.3579 	DATA 	Keypress: a
+276.3854 	EXP 	fixation: autoDraw = False
+276.3854 	EXP 	image_stim: autoDraw = False
+276.3854 	EXP 	text_stim: autoDraw = False
+276.3854 	EXP 	button_left: autoDraw = False
+276.3854 	EXP 	trial_label_left: autoDraw = False
+276.3854 	EXP 	button_right: autoDraw = False
+276.3854 	EXP 	trial_label_right: autoDraw = False
+276.3854 	EXP 	feedback_msg: text = '+'
+276.3854 	EXP 	feedback_msg: autoDraw = True
+277.3853 	EXP 	feedback_msg: autoDraw = False
+277.3853 	EXP 	feedback_msg: autoDraw = False
+277.3853 	EXP 	thanks_text: autoDraw = True
+357.8997 	DATA 	Keypress: escape
+358.7736 	EXP 	window1: mouseVisible = True
